@@ -1,7 +1,7 @@
 {
     "name": "pkgx",
     "id": "pkgx",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "[pkgx](https://pkgx.dev) devcontainer feature",
     "installsAfter": [],
     "init": false,
