@@ -15,16 +15,16 @@ jobs:
       - name: "Compile features"
         run: |
           ./build_features.sh
+      - name: "Commit/Push after compile"
+        uses: stefanzweifel/git-auto-commit-action@v5
       - name: "Publish Features"
         uses: devcontainers/action@v1
         with:
           publish-features: "true"
           base-path-to-features: "./features"
           generate-docs: "true"
-          
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Create PR for Documentation
         id: push_image_info
         env:
