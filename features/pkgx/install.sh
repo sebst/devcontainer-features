@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="3618932665"
-MD5="ffd746ed29592a26913a93f6f7fa33f6"
-SHA="1d7fa785dddea268151156359a9b6d3d3f4fba0d88ad7f877e96fb8b57355507"
+CRCsum="4100251435"
+MD5="f86325852c4a1a899aa4c2cdff5cb017"
+SHA="1b6ee1999168391708a9ba310ea0d1a5e41e4ee071220ab64e5ef5573510fc52"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -17,15 +17,15 @@ export USER_PWD
 ARCHIVE_DIR=`dirname "$0"`
 export ARCHIVE_DIR
 
-label="Devcontainer.com Feature: cf-warp-cli"
+label="Devcontainer.com Feature: pkgx"
 script="./entrypoint.sh"
 scriptargs=""
 cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="1489"
-totalsize="1489"
+filesizes="1956"
+totalsize="1956"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -371,7 +371,7 @@ do
     --info)
 	echo Identification: "$label"
 	echo Target directory: "$targetdir"
-	echo Uncompressed size: 20 KB
+	echo Uncompressed size: 12 KB
 	echo Compression: gzip
 	if test x"n" != x""; then
 	    echo Encryption: n
@@ -383,9 +383,9 @@ do
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/cf-warp-cli.LXNXmW1GRM/\" \\
-    \"/home/runner/work/devcontainer-features/devcontainer-features/features/cf-warp-cli/install.sh\" \\
-    \"Devcontainer.com Feature: cf-warp-cli\" \\
+    \"/tmp/pkgx.fjVR6evbn3/\" \\
+    \"/home/runner/work/devcontainer-features/devcontainer-features/features/pkgx/install.sh\" \\
+    \"Devcontainer.com Feature: pkgx\" \\
     \"./entrypoint.sh\""
 	if test x"$script" != x; then
 	    echo Script run after extraction:
@@ -625,7 +625,7 @@ fi
 offset=`head -n "$skip" "$0" | wc -c | sed "s/ //g"`
 
 if test x"$verbose" = xy; then
-	MS_Printf "About to extract 20 KB in $tmpdir ... Proceed ? [Y/n] "
+	MS_Printf "About to extract 12 KB in $tmpdir ... Proceed ? [Y/n] "
 	read yn
 	if test x"$yn" = xn; then
 		eval $finish; exit 1
@@ -649,9 +649,9 @@ fi
 if test x"$nodiskspace" = xn; then
     leftspace=`MS_diskspace "$tmpdir"`
     if test -n "$leftspace"; then
-        if test "$leftspace" -lt 20; then
+        if test "$leftspace" -lt 12; then
             echo
-            echo "Not enough space left in "`dirname $tmpdir`" ($leftspace KB) to decompress $0 (20 KB)" >&2
+            echo "Not enough space left in "`dirname $tmpdir`" ($leftspace KB) to decompress $0 (12 KB)" >&2
             echo "Use --nodiskspace option to skip this check and proceed anyway" >&2
             if test x"$keep" = xn; then
                 echo "Consider setting TMPDIR to a directory with more free space."
@@ -716,11 +716,11 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ÷îûfí[moÛ6ÎgÿŠ«ÔÍI–íØ@
-cèœ0Ð%E“m(Š"(Úâ"‹Iµ5ºþ÷õbËv^¼ÖÍg –È#MŠ÷<¼;*ŽKÆö'_¤6‰™°Ä­nlÂ“„åÈhïû¤…Ò?<Ôß^ÿÐËï½~?ÿÖÒé´÷¼n¯¯?–·[Ý~gZ{÷ ™T¾À¡ˆg+nÖ9¹º­¾œËüû‘ÈÓ'n&E¾ð4ùö9¾ŒÀ¶ž
->f1Í¯›‚~fJ_¦,¥cŸÅú:á$æA@Eq“%’ª”ÒYÈ¡2*ìÌ'„¦ÊV\‚ &•ðã	$ôÓmºSÒ¼êçG·)–fÛØ3²87ã_Q¹ðo‚ÿ–·Šÿ–whðÿ¨ñß $â`#J®X2?_¾}Saáî8ŽÕ ™À$DJ¥òÈu='ÿ¸$Ll2a.R¡ð7LMÁÒ†9à‰Uö|ÌŠ}oÿ,A4Ä±Ch‚Tºðo€„û2þµVËà'ðŸ[0‰
-d–¦\("ˆuGžïÃÄ¿fí­1À]øï¶:kûÛìÿ;âÿ³1¼kÿËËáðäÍÅåÅÙùWž ùîä¼	^€Šh’«ŒñŽg0ÅUÂ§×Õ0ŒyŽc_ÐÂPTL%ð1H*>2ô‚^*¥­ß,Ú^¢	7§y|¡xñ“è3ä?VðÏ˜5þ×ðÒ€ùÉ=íÿ^»×^Ýÿ»‡fÿßü?-q}^â3KWáœÇO¡ˆÆòüõ< H¯&™+£…¢7á>uÓ,¸¢3g’N0<È“úÒ¶gTâßúbÊq86ÏTš)Èç(#ìÃÅf‡!ÝE¿…ýû‚Dì#µKÝ÷|ìˆx/Ù$¡¡ÌßØÝ‡»çûÏc\
-S_â£'ò ¦>K¬jšŠRp©"®Ÿ*WòL*˜a¤Ö‡Pv©+pyKl`O¨ÂçúŠÂ³gËÅ%ôÁžån—÷6O§4	%¬L±rñŽs²Xsñ Ì¨&]ðhÓÁaÉµtŽá—Lq1sàM1ój8S?Éð{æñùLC.üûŠÿú½Îÿ›üïcÿþ=ïÇwóãËJÂ˜£ùc gÙ4¯ËÌ¨›åå/¢^Å‰9÷áàÑc”P¸üDý«Ë¦rðÊå‚7u³%Î¼£Ýäù*GÚ
-sÎ¨:ªÒ\1Â “¶çHîtŽ€ø‰Væ)M ß‚BàÁ_”(Ð‹u§;"Q~H¹!Ã¨©Õj”ºþ9²´ØüïÎÿxÝUüwºÿ;‘ÿ9]2lÃfè³ QJ%XéÀln—fg0û¿ˆh¼5øKþ×ëöþMþ×Èƒÿ­A³ü·rþëõÚmÏàð?`TX•ê _ UÐp®;|¨zÁH¡Ö	ZªÕ8_¼ýúûÅèìt`í?w
-¯ŸK»Jž §ž·Þÿ2:>úåëÕ ºØÚ¯7µÐ‰×¹*«HyZà¬gAµÂ‹¹Zd‰Ê–ÔŠ¢eµâ uIm~¦ZS+âì%µyè]SÓÛ1*AM­Ü¡J?T7gÍ/µ¨ôIí‰b`†1ÙâH^ÇbŽ+u©³x÷ëÚÐ¯†€$‚¥Êª­œ..Jkk§-àºe/¡W˜€¡âÄÿKùãý¿^oíý¿Ž9ÿ{äüOR¸îu²"sâÇë¯›5H4å! ±Ü®fpûcñ?ßÒîÅÿkáõêû?‡]ƒÿÝ8ÿÛ(ü Ïþj'ºzàOÃ^ë!à:4ºSü¿êüßOþ¯ÓZãÿŽyÿcWøÕ\X×>^õ/w{ƒæŸ=¾ÿ¸EˆYÊY¢¶œöÛÿÕó¿n¯gòÿ»ÿktúçøäáÙéÅËÑéÉ[gxö›ÎøšxE}•	zµÍ¨Vƒ4$«Ö¤ž‹’‘!#FŒ1bÄˆ#FŒ1bÄˆ#FŒ1ò¿• N
-g’ P  
+‹ ÷îûfíXýnã6ß¿ýEˆãödÙÙæc³çEóÕmP4)òQèµ-Ñ6kIÔ’”·Y ¯Ñ×ë“t†’lÙqÚp·w=xÃ53g~3tÓç‰QÓTŠÄ4õðÅ‚ZHû»»ôÝÞßmÛçöþ¾ý&zÙÞ{ÑþloŸþ^îá<>à´^|Ê´a
+MQY’põ4_(ƒÑŸ½/ö2ûþ›Ðæ†Ÿiå÷D‚0ïzLÁó™*Ù·c€'+Åï…¡a*RÞg"¢q"ƒHöz\åY¢¹©Õx0”Pï ÁéÙ·'—7GçgWÍ“Ë¯fësø‚3“)~éhp_yñÕkAñ:µ¦/<Â(Âè­½XÓ3©é“+>ü/ä{w9ÿw‘ÿïüÏ#Ë+"‹«u~þçÿ££úxùß¦ÿ¥üß{¹×^çÿGÊÊ}ÌÍf-x¼V}0\ã8ÇýöìêøòúÌ¡Ô¶oÏo¾¼=îÜœ_^\ã<Ëç¯n/°ºwOÏŽoß:¯ÁyR°:ïk}QQ‚…œH,¢ÅIÅx“¥é™ŽëÛÓËŽ£³P:5­T³BÅ‡‰/®!Ó»EftSÅ»Š¿ÓÛøùfÊúàsø!ï	–tÇ\i!ç `©,™!4r]³³›‹DÄh~/3€z3¡xRAÂÍDª‘HJ®“ßýÍ ÍrCcR}èû)FlÀu3_¹)ÕÀïaDså£¹>ªA4ç>Áx$´±ÒGbº4"ý¾²È€‘Ô€‰ÌÈ­“ùŽ;‘èe!{øÉTîvÀÌªÍ7P‹eû‰k-¸¯EøpÐüäA…ÌCûüªùIÃòä²žÂÕ€ë´´	ƒO?õ>k”3ƒ ÀÇ}ûè{üúµÕTlž´·[ÏT¿ ü`…ê(Ò|šo¥Ý~¦òv«ªýÕcíRŽð€ã\ûzê™úÛUýÅSu®Y€ƒJAÛç¡TÌS<âx¢• u)`šÅ¸:Ó:‹ù’ÌÈX¬VÊT0\¡r³§ÈFCAè¤n žBŸ¥˜fˆïþa3‚yAÄ(xÊ“PƒL@˜BŽiÔ•Ý7q°a‹mÌ½Ð-’€Ã„C†¡Š}L-2Ó®€FºL)Œ}
+ú^&"\GhÀ@žB$'ÍŠ30ßb–ØŽ(I_(ôÍõÔîdæ®L­÷^«È8ed2É{‚ÝDßçÐyrîÀ°µ…Ï8†´à‡œ¹Ä,ÏsÌÉuTÜŠ(Ì³ŽC–yå£sLÇ¦û2çŒ­Ç,!€‰ÓP¨Ž»SÊF-_­ÛÄñŽ¬«,nßÐ¹/ ·í(øÐ
+ºÖ9Y:P,Ä#8\%âÀ›­<`K›KÁyèü…d¾:ÔLS 1HXŒÀJ=«Å8E‘e ÈT4óž¾I1èŒÊâ”¤(>¨à¡k©kœæÑGª:Ž›;Ë§'ÇÎÇ£¾è£­n>•%-ãÎÖñ¼¼o&ÿºæZ0¯ƒ3uÜv`¾»‘Ýr ^Üpšfð3¼)€­JpRÛ€Sø,¡eà¥K®*ÞbÏ÷?£ÈÄ#1Ô—Šò?¡n×¨[‰r¥	Ãô³#
+}¥Š­ÚXp°(Èó$„ÉPC{©o8×#¦{Î,0bÌ­ÊÉDš??zTpŸJeà›£›/;Î"ï¡K³†–æ2¿çÙ]–ß¥2±ŽB!Dá~°ÚŽü„å¦„´BÔšêyS­š|ÿ*vÏ	‰RèaÕÑ.Ò‚‹ŠW…oÞõö»îéùUg.^zÆ^ñ
+¨°¹`ÑŠ¬$l’QX€Õe·WúÌAððŸ¹n5hÕ›LZÍcE¨U00Å¶1àÈµÞµîÃ²Ë°½ÆNµ1cµ«¹cô›Œ þKªªuwÞ×vz(³(|z¿§nñ¯±{œL%Ð*kcÕ5ð[¥±Ÿ`;;o¶ÚO‰ASÌµgdóßGs,MÔ™¯ÚõÌ°…Y¦Ï‹FzeAÈØÝ^<æ°HqNçÙ’'mq3X*iØò>§ÄDËÍ³ußyŒ>Âj«NÎgœqZµÓýÃY00=ÊzYb²&"“Ïü½½ƒƒÝWÕ`Ç{ËùÑE÷‹«Ë‹›³‹ÓN"€°zæ ”§ovÜ¶â
+}SÞÒ&yÀ{÷oKSôÀáá­æÞ7fÚiû9
+¼¯[Ý¡í¤·í”=s~Uh,@"Ot¦8LeC6æ“îÈÉwTÏ<_(=÷ðá.’–ùcÑ¼‹Kå='mÈ±§ýX¬h&ßãûÃÙFfâ8¹ JŒyïô˜7ŸÄžCywõÌ†MˆÕ|¥ÛtÝ±xéønËiP)ªWí¨WÄ7áÇZìŠ;ù}ÀSCHEÝ#…ƒLšF=‘™bKÁÇx…{:«m ßÍ8ï€Ù>öF±1–4dÃc0*npg6r‘Öy"é!V¢@†+éÎ|±$£1;ÃÜË‰œXKËê„ºÒÒÙ(Žÿë_ÂÖ´¦5­iMkZÓšÖ´¦5­éÿ›þ §©ëá (  

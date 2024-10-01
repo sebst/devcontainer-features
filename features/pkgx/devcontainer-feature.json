@@ -1,0 +1,10 @@
+{
+    "name": "pkgx",
+    "id": "pkgx",
+    "version": "0.0.1",
+    "description": "[pkgx](https://pkgx.dev) devcontainer feature",
+    "installsAfter": [],
+    "init": false,
+    "privileged": false,
+    "options": {}
+}
