@@ -1,7 +1,7 @@
 {
     "name": "cf-warp-cli",
     "id": "cf-warp-cli",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Cloudflare Warp CLI (works on Ubuntu devcontainers only)",
     "installsAfter": [],
     "init": true,
