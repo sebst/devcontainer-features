@@ -1,7 +1,7 @@
 {
     "name": "shoreman",
     "id": "shoreman",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "[shoreman](https://github.com/chrismytton/shoreman) devcontainer feature",
     "installsAfter": [],
     "init": true,
