@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="3407682142"
-MD5="5246353f5ea28c272816e4fed2e50f80"
-SHA="155810fafa3558b002fd7ced1d30032f1f6888f6ec2ffa24029aae5d1bf4192b"
+CRCsum="1645868877"
+MD5="242b3926cd508d330975530b6b91a741"
+SHA="88b515ac5bd3b669da88f683c810c5fe0c812d6c42c07b98750171a12014f386"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -17,15 +17,15 @@ export USER_PWD
 ARCHIVE_DIR=`dirname "$0"`
 export ARCHIVE_DIR
 
-label="Devcontainer.com Feature: webinstall.dev"
+label="Devcontainer.com Feature: debug-dump-env"
 script="./entrypoint.sh"
 scriptargs=""
 cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="2918"
-totalsize="2918"
+filesizes="351"
+totalsize="351"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -371,21 +371,21 @@ do
     --info)
 	echo Identification: "$label"
 	echo Target directory: "$targetdir"
-	echo Uncompressed size: 20 KB
+	echo Uncompressed size: 12 KB
 	echo Compression: gzip
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Wed Oct  2 10:58:27 UTC 2024
+	echo Date of packaging: Wed Oct  2 10:58:26 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/webinstall.dev.gVlsKXMVrs/\" \\
-    \"/home/runner/work/devcontainer-features/devcontainer-features/features/webinstall.dev/install.sh\" \\
-    \"Devcontainer.com Feature: webinstall.dev\" \\
+    \"/tmp/debug-dump-env.JCoU8UzENw/\" \\
+    \"/home/runner/work/devcontainer-features/devcontainer-features/features/debug-dump-env/install.sh\" \\
+    \"Devcontainer.com Feature: debug-dump-env\" \\
     \"./entrypoint.sh\""
 	if test x"$script" != x; then
 	    echo Script run after extraction:
@@ -625,7 +625,7 @@ fi
 offset=`head -n "$skip" "$0" | wc -c | sed "s/ //g"`
 
 if test x"$verbose" = xy; then
-	MS_Printf "About to extract 20 KB in $tmpdir ... Proceed ? [Y/n] "
+	MS_Printf "About to extract 12 KB in $tmpdir ... Proceed ? [Y/n] "
 	read yn
 	if test x"$yn" = xn; then
 		eval $finish; exit 1
@@ -649,9 +649,9 @@ fi
 if test x"$nodiskspace" = xn; then
     leftspace=`MS_diskspace "$tmpdir"`
     if test -n "$leftspace"; then
-        if test "$leftspace" -lt 20; then
+        if test "$leftspace" -lt 12; then
             echo
-            echo "Not enough space left in "`dirname $tmpdir`" ($leftspace KB) to decompress $0 (20 KB)" >&2
+            echo "Not enough space left in "`dirname $tmpdir`" ($leftspace KB) to decompress $0 (12 KB)" >&2
             echo "Use --nodiskspace option to skip this check and proceed anyway" >&2
             if test x"$keep" = xn; then
                 echo "Consider setting TMPDIR to a directory with more free space."
@@ -716,13 +716,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ S'ıfíisÓJ’Ïş(.+×#/Î[^ HEÂ£¶–Z—,MbUt=Í(‰¼¿}»G÷a;áÚ¢J]‘F}MÓ=3îõ™'ÂiàÛèñÉƒkÛ››ôw°½9ïƒímù—`}C0ØØÚŞÖõõM}ıÁ¾ll<€µ?".ŒU	#Ïcá|<Ë7¯}Oæ’ııE`åa?âal{× ÁØàĞ4ÏBÿÂv˜|MĞ|`aÈnmA°ÃvèÙóMÇY¿Dg¢ÓaæÄuˆ ‡íŸ¾=ñúíáûŞşé	Ğ¨šcÀ3D²¸a¨	zÄqz». ÌµcZ ”©”N¯Ÿ¾òIçA ×/¯`¹Ÿ–ÿƒÍíJşo¯émşÿâùß‰CKKŠ…m2ş
-ù_óÙÎ}}Mß,ç¿¾¦ooµùÿ“òŸrSse7Ù^§³òĞYİÉ`o‚õÎ&Œ	À‡‰ßé7EÚnÑ‰ÊeÂˆû;²¯‡JÈ.BÆ'
-˜¾'°G*ë¿Ã‡÷ÇCu;UşŞ·Í Ãn?ğñğÏ×£wo^Ubü”3v˜Zúúêôì¼¬¦KeÿÕáş›³'CÕ°KßØBû˜ón@˜6c
-l]ÂkïÂÛƒ}ƒ3ğ/à×jì°à^<ïn´oÄ'şÍè†9¦ï²Õ.|†Õ±‘œ¢ÔWP»k†v#ağ+0<ƒ«K¸ğC~ 9ìš9p—qn\2I„¸[¹ÀÂÊŞŞ<æôvww?y
-|ê¤3P­ÆÕ	á«] Q)‡1dºÖCµ[#·l\ßb¡‡ô¾ÃŸ;O@~¼§t‹¤§0˜)`êG¡|mæ™¤Œ™T‚¹ cî;‘`Îã	ÔîCeåè‰!<PÏ"ÓD£¨İ?à×0°ÅÃä{:Åå¥-&Ñ¸‡ó/dLe™G&óå¼}}—ä¼g2´m±ó•rú6çk×™ıW¥ù”4™Í•Ø‡ŸrÆŞ%#Ÿw•n¿ø!òô¹ævÉëÕlfàØc³„ú¤&<2ô¦‘¤ÉHº	rjÜa,€µŞéş3™!±–…ÜXÃÛä‰àåÛıcÛ‹nc/<+ôm«0"1`Õ¿Àe^8í±gàFÜéŒğÆöäÀ…ssø ïAŸVL/røò%ö‚šúd<BCğy2n_€`hí?h‹ÏÄt¦µÌG†ñ3ò˜)¿ƒ˜0/K¨LƒPcÕTX¥”Ç%Ëöa×èi8{PåäÔnFGHÆ1n=X“v'U1ÇõƒËİ ı½T«Ìöjƒl©è„Kâ­"§—~>“RXPì-òná•°Ó	;–²„;¼âØlê*‘«¥¯Ä ÑbäœEl‘šéK<¹F—^”rà¬ò´VS£•f_Í¨–0qÍ©¼>½AIèÆL†J²¸¹gÚµÄ…ù6È‰	QI­ó!qøTó$æZ»²Hâ™GXÉxuİ–±%ÓHÌã-•œûÇ´°dŸW¶wI“ÌZ‘·6Ö»2æ÷m;Vàœ….œOÆ;bdºV:WI ~bÿÒ]üo}Ó}ÌéïszÓuW%#fŠ4N¼ÈÏ'^_LìØŞUñ@o-&1™/Y_B|u9_ğZj‚šˆ
-W(0øš5•øU	ècêáÈ56ö£_m!êCæ/ñÍ~=1ÃFš-„3>SGãØw¬f¹Æ’Ä=ŒKíc£j	úzÍw¶°M	ÅFm.G/aßwüPæÖÔğî,X3X3‰>ÄÅßF#Ñæ<¢)sÿ¦‘f}›2´B¥1Fœ\7Œñ’!Ánè³¬¢ ­ÍGBL«}Ÿ "æ„™W`Ùœ¶‹Ã³}}móy†RØ·<úœÈÃ&E¾¤DHiùÏiÔÇ\­áK)Æ¸Œ•Ê§;…Ì>úüêôäp–á¦cH³,Õ‹x\öLœY ğËA¤ŸíüwçUäk}sÀí’^Ÿ¿ƒ}Y°ê8ßX-¤q¨f–úŠß,6şçø†Åe“Ÿ†Ï—ö56ÚÔ<àÖ- e;‰üVú–†ÂÊ$5ˆ+=h&5Sšqj2æ—†×´ëÖ‚ĞÇdã¼cÒ¬À8âÓ±w/–Ï¸§
-àQ 7t>	Éc°{¿í]€ıP{[ßK§2Ã¢êHû§JÕ-¶ç‰zK&İ4½¤ó¡8lÃ|§†»bù'ù„´#I›ítäÛPŞõ¥j›2N³¯ê"«<ŸJŠ&Æ…mËCx”Î5îİ$—tm@ø¨Æo\µvRfñŞ=ß¼cé…è1™1p­$¾a5¶}ÔtŸËèªÊ<™zj®J/1©Jê©™zóù¬Æü«[ÛPjš™õÿ¯œ5%šô †‹0?;måN¹Z§üî;7°îµ_©ó|:7êOğÅü õ¿OĞ’œ¯ÚTÃ¹qëß-nc>wŠÛE\°·½ımk´µÑ¼+çŸõ7{ü·¶­éZp±ìE*#tDñáJ_×{[½µü  )òù‘XFP<?ëga*çbùìR§Œ„_Ø»Ü9­Ü+ËAH|’ò
-!ÒıŠE7Y*Šq—sìF(”üXãî™‘tw`[=ëXÓ…†'Ş¡ÇÑı,)ŠLšïº¦DÑ|÷İëßoÃŸõe¯ã’¸ïÿX†`@géò?ıôÎ0¯0âáşÜïyaCëî¶|ÁEh¥hLƒo_ıL=¿ø3eØŞerOÜĞ5’®ÛÄTvÕñ²vİA<Éí ÜÂ‰T|8.X‹dRDúÚ "?¡JÎasâä,¶tÕ¼+ÅÓvõÈÇ­b:”¯íé¬gÅ M¹‹GÇ#é#*Ğé‘] ÍúA(¼·Lñ5Zj@áCU½í„<¼–1©E >}œİ6ä$ËŸõÆÆUUJ2%6 ÒÍ”»Éø§“¯%ö*ŸÏÛ—”8YÂ*Öš)—%¸’,X_ªÙ—–Ù¾L\ß‚èéméKƒ£T\ºÔñTlVjë’ ¥TM•´©%ky±æc@90½N1¤Ö)G¹¡5#TÙÂ²šÒwÚoK/Ê,UàË,™ş|ÙC’­ç²uíùbÙåBF§h;àù±š¥Ü,nì^™n˜kGğøÕÎãµójPÉÂùù?e
-#\Ãöæ¡ÿˆ”í²˜ÎWäx­Cíäí˜ŠHÕ»“ªıKµ?iºäS	YÉ®pcc½}{zNË I·…Êq€ú±–•SøOè:“¯s:F»¤›	m•
-4¨ìûL†ş¹€˜·iôÓM‹Züc‡¨fF¨rÚëÙ*Ø\êg\cD'côÓ>)/)ğäIö¢/1RÙJñâBn/ØGJgùc¥ş|³£Íš®9s×ÕoyJ^i¸İÉÅà÷ÚuL±Â/E±šúU=>ïŸ’ªõNµøó‹be$†*!{jzs‰^•?½Å¬™fGBfÄ…ï‚ã›Xİ|“Çä.;"w×XÓù"ÙS3ö{Dæ¤5œº£†f)£+ôK²4¥… Gœô­†—4bŸc¶EÄÜÕûŞ¿?|{±LŞk.¯|Çt}x‡ªÜ~*l¡¢V­UÓ(c>§Uxy^Ú&à¦¶"E–}Hx½{ó²Ò2$¶¨j–MMR2¨ı•f-´ĞB-´ĞB-´ĞB-´ĞB-´ĞB-´ĞB-´ĞB-üZğ?UÆ» P  
+‹ R'ıfíÕMKÃ0ğó)b=ìÔtíú‚‚l<¸Š÷¾d[°KJšıö¦UtL¦0ùÿ.Ï“6i’'e~Éóvé•íºö¸ÜøB6&«*Ö¬œcZiw1Hã oiÚÇN8Š JÒ4´Y:Ã IƒÄ¡Cç´vºÚ~Šn¥äúp¿RÏßİÿ˜Ëg<çg~Ûh?Ò·«O½šgÍŠzTµVQñ>×õåZóaº´5_d¢êr©ŠJå9×ïV6ÜBx±RÔØ%ä’Ú§­äšKC7™Y^ñ†1æ’î½WÔ7ëzo/~³Ënôk­„4Ç¬ùŸÔÿ(
+÷ê?J¢êÿ´ë¿/ÿÁ¥E'Ó§ñ|öx};›Ş³ñüvW_=èÏL«ùİ= ¶º0 EIİİQ.a[1"               ğÏ½¶ ›y (  

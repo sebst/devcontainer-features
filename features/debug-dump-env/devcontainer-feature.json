@@ -1,0 +1,16 @@
+{
+    "name": "debug-dump-env",
+    "id": "debug-dump-env",
+    "version": "1.0.0",
+    "description": "Writes environment variables to `tmp/debug-dump-env`.",
+    "installsAfter": [],
+    "init": false,
+    "privileged": false,
+    "options": {
+        "testvar1": {
+            "type": "string",
+            "default": "testvar1value",
+            "description": "dummy variable"
+        }
+    }
+}
