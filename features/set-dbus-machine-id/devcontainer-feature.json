@@ -1,0 +1,16 @@
+{
+    "name": "set-dbus-machine-id",
+    "id": "set-dbus-machine-id",
+    "version": "0.0.1",
+    "description": "Sets the dbus machine id in `/var/lib/dbus/machine-id`",
+    "installsAfter": [],
+    "init": false,
+    "privileged": false,
+    "options": {
+        "machine_id": {
+            "type": "string",
+            "description": "The machine id to set",
+            "default": "f6b7d81759f1fa057a196c9766fd1f5c"
+        }
+    }
+}
