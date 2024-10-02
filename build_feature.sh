@@ -26,6 +26,7 @@ cp -r "${featureSrcDir}" "${tmpDir}"
 
 # Remove `devcontainer-feature.json` from the temporary directory
 rm -f "${tmpDir}/${featureName}/devcontainer-feature.json"
+rm -f "${tmpDir}/${featureName}/NOTES.md" || true
 
 # Add the entrypoint script to the temporary directory
 echo '#!/usr/bin/env -S bash --noprofile --norc -o errexit -o pipefail -o noclobber -o nounset' > "${tmpDir}/entrypoint.sh"
@@ -44,3 +45,4 @@ ${makeselfPath} --gzip --current --nox11 --sha256 "${tmpDir}/" "${featureTargetD
 
 # Copy the `devcontainer-feature.json` to the feature directory
 cp "${featureSrcDir}/devcontainer-feature.json" "${featureTargetDir}/devcontainer-feature.json"
+cp "${featureSrcDir}/NOTES.md" "${featureTargetDir}/NOTES.md" || true
