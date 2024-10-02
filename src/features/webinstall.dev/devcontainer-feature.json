@@ -1,0 +1,12 @@
+{
+    "name": "webinstall.dev",
+    "id": "webinstall.dev",
+    "version": "0.0.1",
+    "description": "Installs the cli for [webinstall.dev](https://webinstall.dev)",
+    "installsAfter": [],
+    "init": false,
+    "privileged": false,
+    "options": {
+
+    }
+}
