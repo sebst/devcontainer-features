@@ -1,7 +1,7 @@
 #!/usr/bin/env -S bash --noprofile --norc -o errexit -o pipefail -o noclobber -o nounset
 
 # Set the base directory
-FEATURES_DIR="./src/features"
+FEATURES_DIR="./precompile/features"
 
 # Check if the features directory exists
 if [ -d "$FEATURES_DIR" ]; then

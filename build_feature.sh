@@ -7,10 +7,10 @@ chmod +x makeself.run
 readonly makeselfPath=$(find . -name makeself.sh)
 
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-readonly srcDir="${SCRIPT_DIR}/src/features"
+readonly srcDir="${SCRIPT_DIR}/precompile/features"
 readonly featureName=$1
 readonly featureSrcDir="${srcDir}/${featureName}"
-readonly featureTargetDir="${SCRIPT_DIR}/features/${featureName}"
+readonly featureTargetDir="${SCRIPT_DIR}/src/${featureName}"
 
 if [ ! -d "${featureSrcDir}" ]; then
   echo "=== [ERROR] Feature source directory not found: ${featureSrcDir}"
