@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="4106368386"
-MD5="b5afaf8311292da876ec4b59a2545921"
-SHA="de049a016cda40e3003167cfe6b83e6747a4bdfe89027567d990fe621a886ad3"
+CRCsum="3358069912"
+MD5="50af5c6faf88642f5728480c28782398"
+SHA="34ff281ee824286d742f0a05dc14469562defcd9bde0b737697e14682bcde9a1"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="336"
-totalsize="336"
+filesizes="351"
+totalsize="351"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,15 +376,15 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Mon Oct  7 15:07:13 CEST 2024
+	echo Date of packaging: Mon Oct  7 13:11:08 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/debug-dump-env.0FHJBjXJAn/\" \\
-    \"/home/bas/_Code/devcontainer-features/src/debug-dump-env/install.sh\" \\
+    \"/tmp/debug-dump-env.vTLb0lVPlC/\" \\
+    \"/home/runner/work/devcontainer-features/devcontainer-features/src/debug-dump-env/install.sh\" \\
     \"Devcontainer.com Feature: debug-dump-env\" \\
     \"./entrypoint.sh\""
 	if test x"$script" != x; then
@@ -716,6 +716,6 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ÝgíÕMKÃ0ðžó)ëa§¦/k-
-²Mðà*ÞÛ.Û]RÒtè·7·Š0…ÉÿwIÚ>}	É?åá\”Ý2˜wë&jJÕÚ¢®y»òŽ%rò,ëÛ8Ï¢Ýv+f^œæ}ÑEÅ^§qž{y sÃ5îSÊ¢ý²î»ë'êü,ìZ–R…nö)x$7ÐÒÑY‹mßThÆˆiûn#±(dÝ÷•®j]–Â¼tª–1&ª•&ì–TKrO—F«µP–6…‘EY‹–sî³þ½×Úus°™¿»i·æµÑRÙcfþ'ù¦ÉAþ“8I‘ÿÓÎÿ6þƒ+‡Æ“çÑlúts7<ðÑìžú³ƒ
-º…íŒ¸¤ý`§äVÍÉß¿Ëg|ç/†M               þ¹7Æ·RÃ (  
+‹ ìÝgíÕÏKÃ0ðžûW<ëa§¦í¶® (È6Áƒ¨xïlvIIÓ¡ÿ½iÝ„)L¾ŸËKÚ—¶!y)
+ž5K¿hÖ•Ïå&²6iY²zåKh%qÜÆ(‰£®%I[ýAìDÃ¤M%ñÐ	£QÒ8: ±ÓÕöSt#%×‡ó
+•?wÿc.ŸñDœŸM­ƒLÈÀ®>ù”¥õŠ|_ªJ«…(y×Ö9ùŠ¸ÖüE˜¶Y‰Š/RQ¶m©òRe×ïFÖÜ¸®Ëó•"ob7–K²OZÉ5—†6©iVòš1æ¹í{¯(0ëjo/ºü6f—Ýè×J	iŽYó?©ÿÁ°¿WÿÃQ¢þO»þ»òï]Z4™>ç³ÇëÛÙôžçwÔ^í}eÐOM£ùí [)ôÜ¼ ow”ç²­¿               øçÞ ,MÅ– (  
