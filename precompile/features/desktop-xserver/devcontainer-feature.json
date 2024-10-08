@@ -1,0 +1,15 @@
+{
+    "name": "desktop-xserver",
+    "id": "desktop-xserver",
+    "version": "0.0.1",
+    "description": "XServer",
+    "installsAfter": [],
+    "init": false,
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Currently unused"
+        }
+    }
+}
