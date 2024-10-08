@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="1285520979"
-MD5="c87a62532cd42793a8ac593eb2d61ad2"
-SHA="0ff150e29c0b35eb5475423c4524fff673903f4548e116ae3573657fab5bed5f"
+CRCsum="3874019790"
+MD5="cc3b37d3f7ac6546857917fce246d345"
+SHA="4dad9943b1007f8ebf6a0fff89d5d093d2bc29adfb96cc242491c281f8fabcb3"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="440"
-totalsize="440"
+filesizes="439"
+totalsize="439"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Tue Oct  8 14:33:33 UTC 2024
+	echo Date of packaging: Tue Oct  8 15:09:18 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/set-dbus-machine-id.xgZm5WOkqp/\" \\
+    \"/tmp/set-dbus-machine-id.UXVwpa2LRj/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/set-dbus-machine-id/install.sh\" \\
     \"Devcontainer.com Feature: set-dbus-machine-id\" \\
     \"./entrypoint.sh\""
@@ -716,4 +716,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-ã ΩBgÌ‘]k€0`_ÎWúzÅl˛jì:2Ëíî÷ñvª#¯Cû≈<)»rŸ˛˝‰‘,ŸÍˆf¨Pxü…ˆ9ílÎ»∏4˙ÁN	i¸∫t˛á–ä«„∂ç‚q¥øé‚xﬂ∂Œ∆#'≈at:äNcç&g±C°Ûö⁄$⁄.E7Rr˝p\Æ≤oè=ÔﬁÂw˚Lº8	öZ©êv#‹í∑°4©KÚ<©vZ¢‚˚æŒ»SƒµÊ?Ñiª;±„E"™∂/UV©4Â˙Ó¢ë57åÒ¨T4úZ4_|ú≠W◊À’‚É?[_Q{wxà†KûòFÛs≤ô^û6µ˜=…J!π'Ú£∏Yñì€ìÍ2?“˛‡™≤{õ9pèÙ|∑£èˆı?	£øÍ?ûÑ®ˇg^ˇÛ∑7õÌ’≈Ïù≠˙ÌræΩ\æ_LÉ€DïHÉv«áwΩZ|: ò}∆DAü…+»ÙÏ“ó◊dJ.—˛∏p◊UNÌ$‘MBÀ9vm˘9^fâ°ﬁq^π¨›ŸÂn∏1B~Ω7åQ]ÚüÎuª¥ﬁgÙ¶BJ               Ø~A=Ü (  
+ã KgÌ‘_KÎ0 >ÁSÎ`˜>¥iµ]¡À›&tßﬁë—?©÷d§©xø˝MgqÛZ}ë+Á˜í§…I“6'.eB´?+…Öv´¬˙<#
+√¶Ù£–_∑˝(Zóç˝0∞¸ Ú¸Ω ˆñÁÉ`œœ˙u•ce∂¢j!òz\&”˚è˙€wy)øâ›ZWä&\òÉŒí∏*¿qÑ\)ôÛí≠Î*GSä=q›TW|≈ÚòóM]»¥îI¬‘s£”Ñ∞¥ê–0û\èÊ≥À£Èlr·éÊÁ–<ÌoF¿	ãu≠ÿòH'KÍ yà”ÇÊlk‹;˙$Õ¿ÓµâKπ0?∏,ÕŸ&z√•ﬂmÎ£}E˛<ˇü¸è>Êˇ7œˇÒÒ’by~4:5Yøúéó'”≥…ê>∆äñ<°Õâ£õ˜<z6˘Ω1ÏmÍÑn¿…¡ÓuMl√Ì/–`}]ÿÛ2ÉfhÅÈr≥∑Ï z?“XCÁ<?míÛˆÓ≤Lk.ÓﬁL£e¸zøv÷Ÿá›‚•ÑB!ÑB!ÑB!ÑB°œ˙i˜ø (  
