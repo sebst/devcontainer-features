@@ -2,7 +2,7 @@
     "name": "kmod",
     "id": "kmod",
     "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/kmod",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Installs `kmod`",
     "installsAfter": [],
     "init": false,
