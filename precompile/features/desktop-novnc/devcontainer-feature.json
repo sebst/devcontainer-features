@@ -1,7 +1,7 @@
 {
     "name": "desktop-novnc",
     "id": "desktop-novnc",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "description": "Installs [noVNC](https://novnc.com) and websockify binaries.",
     "installsAfter": [
         "ghcr.io/sebst/devcontainer-features/desktop-xserver",
