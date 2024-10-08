@@ -1,6 +1,7 @@
 {
     "name": "desktop-init",
     "id": "desktop-init",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/desktop-init",
     "version": "0.0.1",
     "description": "Adds entryp point for simpe desktop.",
     "installsAfter": [

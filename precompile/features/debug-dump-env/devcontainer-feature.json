@@ -1,6 +1,7 @@
 {
     "name": "debug-dump-env",
     "id": "debug-dump-env",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/debug-dump-env",
     "version": "1.0.0",
     "description": "Writes environment variables to `tmp/debug-dump-env`.",
     "installsAfter": [],

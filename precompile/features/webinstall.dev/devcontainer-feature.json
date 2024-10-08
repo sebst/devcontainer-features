@@ -1,6 +1,7 @@
 {
     "name": "webinstall.dev",
     "id": "webinstall.dev",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/webinstall.dev",
     "version": "1.0.0",
     "description": "Installs the cli for [webinstall.dev](https://webinstall.dev)",
     "installsAfter": [],

@@ -1,6 +1,7 @@
 {
     "name": "desktop-novnc",
     "id": "desktop-novnc",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/desktop-novnc",
     "version": "0.0.1",
     "description": "Installs [noVNC](https://novnc.com) and websockify binaries.",
     "installsAfter": [
