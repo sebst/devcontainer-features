@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="3966883398"
-MD5="ffea3a5e5e85ba8f78c5b037ab5b4cbe"
-SHA="615ab9d96c07e2366da21129af2c93ee61ee17f9c7f1a26eb92ec4cd4691bada"
+CRCsum="3772476834"
+MD5="478ebeaa5f48529b5ac7e691eb75e2ad"
+SHA="fa1d314f7874d0b088798a1e5dca81053fb6bacb1976b561cbd59e80ecf19a3e"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="1479"
-totalsize="1479"
+filesizes="1491"
+totalsize="1491"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,15 +376,15 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Mon Oct  7 15:07:13 CEST 2024
+	echo Date of packaging: Tue Oct  8 12:00:10 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/cf-warp-cli.A4Z7bj46QG/\" \\
-    \"/home/bas/_Code/devcontainer-features/src/cf-warp-cli/install.sh\" \\
+    \"/tmp/cf-warp-cli.803VYVq766/\" \\
+    \"/home/runner/work/devcontainer-features/devcontainer-features/src/cf-warp-cli/install.sh\" \\
     \"Devcontainer.com Feature: cf-warp-cli\" \\
     \"./entrypoint.sh\""
 	if test x"$script" != x; then
@@ -716,4 +716,10 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ Ýgí[ûoÛ6ÎÏþ+®jP7ôðHa“º¤h²EQEÛ\dQ ©¶F×ÿ}G=lÙNb¯u³Äã ÖãHKâ}ïŽ²ã’‘ýÉ‰M"æ,vË›ð8¦D9rrð}ð½NG6z¯ú™¡Õj4Ú=mÔm{¯ÑéµàÜR©|—øòN»Mç)ž>qS)²§ñG°/ ot¶óDð‹h¶-Ø¨ô3Sz3a	ù,ÒÛ1'*ò4–TÕ @M¦!‡Ò©°3Ÿš([q	‚Ž™TÂWŒÇÓOwÙNyH³S?‡|r—aá¶µƒ-àÜÎEåÈ¿ÿ‘ó+üovZ†ÿšÿ5J&¬Á„’káÏ—oß”ÜDº;ŽcÕH*°	¥yìº'ûsIÛdÌ\”Báoš€¥³Ïc«èù„Çû0Þ!ÿYŒlˆ"‡Ð¥t'äß‚ÿMÏ[á»×îþïÿ3O&ñ„™&	Š†HbÝQÃÐ÷aò_«öÎ`ÿÛ^kmþïšùOâ6‚÷`~y9œ¾¹¼º<¿øjÁ“>Ôß^ÔáÃPgæ¹b¼ã)LqT éõiD<G‘/hG(*¦ø$ÆÁ7•Ò†¶¯çm¯Ð…ëÀ“,¿P<ÿJŒ²/ËõgÄj†ÿküiÀüøžæÿF³Û\›ÿ=3ÿï	ÿŸ¼¾(ø™&«tÎr§g#yñzž$×c‡ÌÑC1špŸºI\Ó™3NÆ˜dÅ ½iÛ3*ñH}1åx96OU’*ÈîQN°›	¼é.úÍýßdÂ>R»0Ð}Ï¯ù ï%Ç4´ƒYÿ»û°ù¾àðy$ƒ+A#êK|ôDÁÔg±UÞ¦¢\ªˆë'Ê•<„J'b˜©‡ÕK(ºÔ'ð&²–ØÀS…Ï?ô…gÏ–Ô{–¸]ìÛxy|:¥q(aåËï$‹µÂ”jÑõvß(ç˜ÞqÉ3Þäw^^ÎÔSüœ9&b¼GýÑÿ¾ò¿^·µ¦ÿ¦þûØó¿¯ûÑf}\SYIs´~¬	ä,f'ä²2êfÙñRÑ®ÔÄLûðâ1bìT¸úDýë«&²ÿÊäB7u³%ÍÜÐîñ|•1mE9gT—e®ˆaJ»áHî´Žø±6æ	!›‚BàÁ_”(Ðƒug;"“lPrC†PK«U+tþsTi±+úo®ÿ4Ú«üïz†ÿ{Qÿ9[rlLÃf³ SJ%XêÄlî—ff0ó¿˜Ðhgôÿ–úoÛëþ›ú¯ÁÃÿQ»úOcuý·Õîôÿ÷ÿý~†¹Wé$ š ÓÁàõÐc ç¦Å‡²Ì* §Zµ“áÅåÛá¯¿_ÏÏúÖás'ú¹´Ëâ	FêYëÃ/Ã“ã_¾Y5¢[‡Õ¦ñºVeå%Oëœõ*¨6xñ"3Kƒ4Vé’Y~hÙ,_@]2›¯©VÌò<{ÉlžzWÌôtŒFP1+fè…ÑOGeÅÍYã+*}Ry¢˜˜aN¶X’×¹˜ãJ}ÔY¼ûuãèWC@ÁeUFNÎVÆN{ÀMÃ^4Â¨0s #ÅHÿ—òÇÇÝîêú_·gÖÿ¹þ“nz,¯ÅGœøÑúëf52™òÐYî63¼ý±üŸOi÷ÿy½Þ*ÿ1(4üÔüŸ¯ÿmU~€k••?}ºïOÃnë"àZ4ºWú¿üßOý¯åõÖëÿæý=ÑÿÕ8pá]·ÆxåO86GƒæÇßÍœ"Ä,á,V;.ûmÏÿÖêú_³Ñ4õÿ}¨ÿÕûºüsrúÇàüìòåðìô­38ÿMW|úõ…¼¢¾J=†ÊdT9ê5‚UiR­EÉ‰ƒÿ-þßù?& P  
+‹ Êgí[moÛ6ÎgÿŠ«ÔÍI–íØ@
+cèœ0Ð%E“m(Š"(Úâ"‹Iµ5ºþ÷õbËv^¼ÖÍ –È#MŠ÷<¼;ÊŽKÆö'_¤6‰™°Ä­nlÂ“„åÈhïû¤…Ò?<ÔŸ^ÿÐËï½~?ÿÔÒé´÷¼n¿åµ½~ÇkïµÚ­n§»­½{L*_àPD†³7ë…œ\ÝV_ÎeþùHäé7“"_xš|û_F`Û	O³˜æ×‚€Í
+A?3¥/S–Ò±Ïb}pó  ¢¸ÉIUJiÈ,äPvæBSe+.AÐ	“JøŠñúé6Ý)i^õsÈ£ÛK³mìÙ@œ›ñ¯¨Üø7ÁË[Æ?Vöþ5þ”D¬aDÉK&ðçË·o*l"ÜÇ±$Ø„H©T¹®çä.	›L˜‹Ô@(üAS°´axb•=ó„bÂ[Ä?Kqìš •nüà¿pYÁÕþwÿ¹%“X¡@fiÊ…¢!‚Xwäø>LükÖÞÜ…ÿn«³¶ÿ÷Ìþ¿#þ?Ã{°ö¿¼OÞ\\^œµàÉ šïNÎ›ðá¨ˆ&¹zÁïxS\(|z]Ã˜gá8ö-üEÅTƒ¤â#C!˜á¥RÚÑÐúÍ¢í%špxšÇŠ_‰>CþeÿŒYÃàÿ!˜ŸÜÓþïµ{íµýß3ûÿŽàÿi‰ëóŸYº
+ç<x
+E40–ç¯çAz5qÈ\-½	‡ð©›fÁ9“t‚áAžÐ—¶=£ÿ‡ÔSŽÃ±y¦ÒLA>Ga.68é.ú-ìß$b©]*è¾çcG<À{É&	í`6øÆî>Ü=/ØËàRÐ˜ú=‘0õYbUÓT”‚KqýT¹’g‚PéÄ#õ°>„²K]“È[b{B>ÿÐWž=[..¡ö,_p»¼·qx|:¥I(aeŠ•‹wœ“Åš‹aF5éú€@›.K®¥sï¸dŠ‹™oŠ™WÃ™úI†Ÿ3ÇxŒ÷ÈÿcráßWü×ï­ù&ÿûèã¿ÏûñÝü¸Æ²’0æhþX#ÈY6Í+ä23êfyyÅ‹¨WqbÎ}8xô%.?Qÿê2¤©¼òc¹àMÝl‰3ïhwy¾Ê‘¶Âœ3ªŽª4WÌ‚0È¤í9’;# ~¢•yJÈ· xð%
+ôbÁ)ÇŽH”ßRnÈðjjµ%ƒn€Ž,-¶ÿ»ó?^wÿ–ÁÿNäN—Ã°ú,h”R	d:0›Û¥ÙÙÌþ/"oþß’ÿõ¼–Á¿Éÿùoð¿5èo–ÿñVÏ{^¯mð¿ø0*¬Jõ †¯G€*è8×>T½`¤Pë-ÕjÎ/ÞŽ~ýýbtv:°öŸ;…×Ï¥]%OÐSÏ[ïýòõÀj]lí×›ZèÄë\•U¤<­pÖ³ ZáÅ‹\-²DeKjEÑ²Zq€º¤6?S­©qö’Ú<ô®©éí• ¦VîÐ¥ŸªŒ›³æÆ—ZTú¤öD10Ã˜lq$¯c1Ç•ºÔY¼ûuí
+èWC@ÁReÕVN¥µµÓpÝ²—Ð+ÌÀPñâÿ¥…üñþ_¯·úþ_§oÎÿ9ÿ“®{¬ÈÅÇœøñúëfMyh,·«ÜþXüÏ·´{ñÿZx½ÿz‡ÿ»qþ·QøžýÕNþtõÀŸ†½.<ÖCÀtht§øÕù¿Ÿü_§µÆÿóþÇ®ðÿª¸°®}¼ê'w{ƒæÇßÜ"Ä,å,Q[NûmŽÿÎêù_·×1ùÿ]Èÿ5:ýs|òÇðìôâåèôä­3<ûMg|Í…¼¢¾Ê=‚ÚfT«¿Aš‚UkRÏEÉÈ‚#FŒ1bÄˆ#FŒ1bÄˆ#FŒùßÊ?Û¦>˜ P  

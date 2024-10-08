@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="4106368386"
-MD5="b5afaf8311292da876ec4b59a2545921"
-SHA="de049a016cda40e3003167cfe6b83e6747a4bdfe89027567d990fe621a886ad3"
+CRCsum="2866524710"
+MD5="f27596c580ce88fcebc49288d530bf92"
+SHA="a4238965e894fc37c125fc0fee867cb0ff092a3a401e8d806bc2cb97c8db7fba"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="336"
-totalsize="336"
+filesizes="351"
+totalsize="351"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,15 +376,15 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Mon Oct  7 15:07:13 CEST 2024
+	echo Date of packaging: Tue Oct  8 12:00:10 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/debug-dump-env.0FHJBjXJAn/\" \\
-    \"/home/bas/_Code/devcontainer-features/src/debug-dump-env/install.sh\" \\
+    \"/tmp/debug-dump-env.wxRxe8byHw/\" \\
+    \"/home/runner/work/devcontainer-features/devcontainer-features/src/debug-dump-env/install.sh\" \\
     \"Devcontainer.com Feature: debug-dump-env\" \\
     \"./entrypoint.sh\""
 	if test x"$script" != x; then
@@ -716,6 +716,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ÝgíÕMKÃ0ðžó)ëa§¦/k-
-²Mðà*ÞÛ.Û]RÒtè·7·Š0…ÉÿwIÚ>}	É?åá\”Ý2˜wë&jJÕÚ¢®y»òŽ%rò,ëÛ8Ï¢Ýv+f^œæ}ÑEÅ^§qž{y sÃ5îSÊ¢ý²î»ë'êü,ìZ–R…nö)x$7ÐÒÑY‹mßThÆˆiûn#±(dÝ÷•®j]–Â¼tª–1&ª•&ì–TKrO—F«µP–6…‘EY‹–sî³þ½×Úus°™¿»i·æµÑRÙcfþ'ù¦ÉAþ“8I‘ÿÓÎÿ6þƒ+‡Æ“çÑlúts7<ðÑìžú³ƒ
-º…íŒ¸¤ý`§äVÍÉß¿Ëg|ç/†M               þ¹7Æ·RÃ (  
+‹ ÊgíÕMKÃ0ðžû)b=ìÔ´éÖÙ&xpï}É¶`—”4úíM§è6˜ Laòÿ]ž'mÒ6$OJ£Räí",ÛU
+µŽ¤jlVU´YzÇ;<M»ÈxÊ6mÆù&v’~ê±YÂxŸ%^Ì†<N<{ uÓ5îSL«”0‡û•ºxþîþÇ\>ã‰8?‹ÚÆD¹T‘[}><k–$•®žËJlrSPaŒx‘¶KkY‹y&«.Wº¨tžóÞhU#¬ïû¢XjŒÝÆ’jAÜÓ¥Ñj%”%ëÌÈ,¯DC)üî½W$²«zo/úü6ê–Ýš×ZKeYó?©ÿþ Ù«ÿÁ0á¨ÿÓ®ÿMù÷.2ž<fÓÇëÛéäžŽfw¤»ÚûêAnDf[#.Èî°Õå€ž_”$Øøtë/†C               þ¹7=ÎPÃ (  

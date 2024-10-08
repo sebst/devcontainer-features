@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="2931942022"
-MD5="c5d23e826f70f2cde37f263fe2348d4f"
-SHA="4bb6a5d56073beca664d29c318af466ea0182bb7676ed1be7dd9d27cc85494e3"
+CRCsum="3145306634"
+MD5="89e31a8b5068fb843fdd073ff3311d2c"
+SHA="8c7aa3e4f6aa055c05de8b3b49d2487ff58c81c309d851f91f88ab555305f34f"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="426"
-totalsize="426"
+filesizes="440"
+totalsize="440"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,15 +376,15 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Mon Oct  7 15:07:15 CEST 2024
+	echo Date of packaging: Tue Oct  8 12:00:11 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/set-dbus-machine-id.Pew3e0Cq68/\" \\
-    \"/home/bas/_Code/devcontainer-features/src/set-dbus-machine-id/install.sh\" \\
+    \"/tmp/set-dbus-machine-id.GyxErUvENd/\" \\
+    \"/home/runner/work/devcontainer-features/devcontainer-features/src/set-dbus-machine-id/install.sh\" \\
     \"Devcontainer.com Feature: set-dbus-machine-id\" \\
     \"./entrypoint.sh\""
 	if test x"$script" != x; then
@@ -716,6 +716,9 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ İgíÔ]kÛ0`_ëWœyl¶ì&n #ƒ.Ii M éº‹1‚?äYàÉA–Ëöï+§¤­·^Œ
-ïs#Ù>G’mù\(£ÿl*©Œ_ÎK¬Qµm8Š‚Ãvkp8jƒ‡ÁÀ	Â£p:8¯ ©M¬íR’¸şgÜsÏß¨÷ïxSkHe7Â-y+²/Zç©j£«\–bÛ×)y	­ÅoiÚîFnDË²í«*-«$úş¢Qµ0Œ‰´¨¨?¶h:»™,×§óÅìÊŸ,/©½ÛßGĞ™ˆM£Å	ÙL/KšÚû§…TÂ“ÙAÜ_ôYš‘Û‘ê2ŸKepYÚ½ÍxÂçßíà£½Fıá£úÂ õÿÆëúåëj}y:9·U¿O×gó‹Ù˜ßÆš—2áíãûw½˜};È÷ö}ÆdNßÉËÉíuìÒOd
-¡Ñö¸p—eFí$´›„æSÊíÚ²ê}HcCã|tY.wg—»ÆHõóÉ0¦Ú%?\¯»Kë|FŸ»'Ä¡               ÿë¿¢: (  
+‹ ËgíÔOOÛ0 ğœı)Y¥n‡ÄñÒ6S‘X[D%h%
+ÛašªüqˆE°+ÇAãÛã”ˆ–¸LCBz¿‹íØÏv?û”K£ï7JHãW…ó?V46%‹†lÛfQ´-ápà°A°¯,
+Yèl0
+CçÔ•‰µİŠ®¥äúõq™JoŞêoßå©ü >ĞºÒ4Ò„;ğVÄU'ÕF«\”|[×)x
+¸Öü0Mu#6<EÙÔ¥JK•$\?6jYqCOı±ÓÙÉrqy<_Ì.üÉòš§ıİ8á±©5?éeI]y·qZÉ=‘í{EŸ¤¸¡.ñ©ö—¥=ÛÄA/ø´ã»í}´÷ÈÿQÀşÊÿh`şğüŸ~¿Z­Ï'§6ë×óéúd~6Ó»XÓR$´9qtwâG/f?÷"Æ½]‘Ã/ğrp{]»ğû˜‚K°½.Üe™A³´‹À|
+¹İ[v½Ïil s/.ÉE{w¹+nŒ×/¦1ª~¾_·ëìƒ£îñRB!„B!„B!„B!„Ğ¿z ´·~F (  
