@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="702798389"
-MD5="0408c1f115ac0613198894256534f5a2"
-SHA="c142947ddd2bcd7683064d206f1c387b1b1a776282967b1960ad09002a016873"
+CRCsum="4273159637"
+MD5="019fc1e7693864dede1628e3bbcd821c"
+SHA="dd2a5da0352eb11f8e21c6b2f5a82ea6e40b81097a292f6ca17e0f06dd7d4f5c"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Tue Oct  8 15:10:28 UTC 2024
+	echo Date of packaging: Tue Oct  8 15:52:18 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/set-dbus-machine-id.YKKLQDmv5Z/\" \\
+    \"/tmp/set-dbus-machine-id.2oxi26ERaL/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/set-dbus-machine-id/install.sh\" \\
     \"Devcontainer.com Feature: set-dbus-machine-id\" \\
     \"./entrypoint.sh\""
@@ -716,5 +716,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-ã dKgÌ‘[k€0 `?ÎWúzÅ¥∂ÏŒé!#É,hX⁄ıaå‡ã<ãyRêÂ“˛˚ ©Y≤÷ÌÀX!pæIñé$€:r)Z=l%⁄≠
-Îå(õ“èB◊ˆ£hW6>ÜÅÂëÁüañÁÉ‡‹œzu•ce∂¢j!òz}\&”_oı∑ÔÚß<Nh])öpa¬8kH‚™ «r´dŒK∂´´	L)vœuS›Ú-Àc^6u!”R&	SOçZTL¬“BBd¿tˆm≤Z^èÀŸWw≤∫ÇÊi?Ê,÷µbC0ëNñ‘ïÛ;N.ò√≥ÉqØËì4ª#‘&.Â¬¸‡≤4gõXËóv|∑Éèˆ˘?¸g˘|Ãˇ#œˇÈóõıÊj<π0YøYL7Û≈ÂlDÔbEKû–Êƒ—˝â{Ωú›Dåz˚:!<áÔ‡‰`˜∫&∂·«'–`w]ÿ´2ÉfhÅ≈r≥∑lΩ”4÷–9œôMrﬁﬁ]ˆöiÕ≈œ”hŸˇΩ_ªÎÏÉœ›‚•ÑB!ÑB!ÑB!ÑB°ı≤>÷Q (  
+ã 2UgÌ‘[k€0 `?ÎWúzÅ¨∂Ï4é!%É,hX⁄ı°î‡ã<ãyRêÂ≤˛˚ ©i≤’ÌÀh†pæIñé$€:r)Z=l%⁄-sÎ=xFuÈáÅøk˚a∏+kgAﬂÚ˚°Á˜Ç^–≥<ø?8-¨#®J)≥U	¡‘Î„Rô¸z´øyóÁÚÉ¯tB´R—òsÓ¡YCï98éê[%3^∞]]%‡H`J±?\◊’-ﬂ≤,‚E]2)d3ı‘®D…4!,…%tGLg?&´Â’x±ú}w'´K®üv˜#`Œ"])6È§qU:ø£$ÁÇ9<=˜ä.IR∞[Bm‚R.Ã.
+s∂âÖ^piÀw;¯h«»ˇÅÁˇìˇ·¿√¸ˇ‡˘?˝zΩﬁ\é'ﬂL÷o”Õ|q1—˚H—Ç«¥>qt‚ûF/g7£ŒæNœ‡úÏN€ƒ6‹ùÉŒô  ªÎ¬^)‘ã@≥,¶êôΩ•CË|N"≠Ûú⁄$„Õ›eØô÷\¸|1çñMﬂ˚µõ∞÷>¯“æ ^J!ÑB!ÑB!ÑB!Ñ˙_è≈ö0 (  

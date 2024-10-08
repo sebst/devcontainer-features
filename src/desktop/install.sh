@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="3538667006"
-MD5="bcbb4117466a0c8734640283f661c6cc"
-SHA="5c9a506aaa070ae90884a92a91725869c3150f7e395e22976d5d79c9c7ba863e"
+CRCsum="56137304"
+MD5="3ac8e6d058469ab48542325047fa1428"
+SHA="41ca81ae73bb98f087f2f4cfa0948b2399a665813fbdb5dc5ffe7d9da0986922"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="327"
-totalsize="327"
+filesizes="328"
+totalsize="328"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Tue Oct  8 15:10:26 UTC 2024
+	echo Date of packaging: Tue Oct  8 15:52:18 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/desktop.Iyx6YIY9Gj/\" \\
+    \"/tmp/desktop.N5L2jXoUCh/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/desktop/install.sh\" \\
     \"Devcontainer.com Feature: desktop\" \\
     \"./entrypoint.sh\""
@@ -716,4 +716,4 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ bKgíÕOOƒ0pÎ|ŠW<ìDFbâÁÌ™xØfœñ^ ÍHKJ1úí…mÑÅdÆƒ¢>¿Ëû–¾òP¢ÙX]R5–WkJç“…4Iú¥I´]Giº­»~ìDqFÃ8Iâ¡F];:ß íNmºW1­RÂŸ+t¾yo–—úKœžmc‚Lª@¨ò—”ñ¦$ßWº6z%+±íMN¾&aŒx”¶okY‹—Uß+W:Ë„Ù-ZÕëº"/5y3a9Ýð|Ã×‚Ñ\ÛRª5YM…fžëÀcÝg·æ©ÖRÙ/ˆþ‡ò?ÆoòG	òÿò?8ïÐåô~²˜ß]\Ï§·l²˜Qÿtð:AW‚ÛÖˆ3Ú_F{GÜ¼ o?î¹ìàúÂ_               þ•gXí+… (  
+‹ 2UgíÕ»NÃ0àÌyŠC:Å¹4n$$TŠÄÐbÏÅm¬Fvä8Þž¤TP!1pðË9ŽÏ+úc”¢ÝXÝRµ6«kÖVÎ'{)çCRm×Qšnës?q¢$£˜ÇÉ$vÂˆó„;:ß ëOmúW1RÂž+u±yow–—úK]k‚\ª@¨{òo(ÏÚŠ|_éÆè•¬Å¶7ùš„1âAÚ¡md#V™¬‡^é¢Öy.Ìó¢S­°®+ŠJ“76£«¬ØdkÁh¡m%Õš¬¦R3Ïuà‡±þ³[óØh©ìDÿCùÇÉ›ü'“q‚üÿüN{t>»›.·g—‹Ù5›.ç4<½NÐ…ÈlgÄ	í.£½½FnQ’·÷\¶w}á¯               ÿÊGó‡R (  
