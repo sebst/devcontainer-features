@@ -1,0 +1,28 @@
+{
+    "name": "desktop-novnc",
+    "id": "desktop-novnc",
+    "version": "0.0.2",
+    "description": "Installs [noVNC](https://novnc.com) and websockify binaries.",
+    "installsAfter": [
+        "ghcr.io/sebst/devcontainer-features/desktop-xserver",
+        "ghcr.io/sebst/devcontainer-features/desktop-fluxbox"
+    ],
+    "dependsOn": {
+        "ghcr.io/sebst/devcontainer-features/desktop-xserver": {}
+    },
+    "init": false,
+    "privileged": false,
+    "containerEnv": {
+        "DISPLAY": ":1"
+    },
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "1.2.0"
+            ],
+            "default": "latest",
+            "description": "The version of noVNC to install."
+        }
+    }
+}
