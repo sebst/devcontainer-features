@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="3718923316"
-MD5="77c3ee805b9ad594619e6d8c74737271"
-SHA="4f625f43daac1d4067ec55466e992417bd5ce38958dfc4a0d5c48fe0794d6c88"
+CRCsum="3145306634"
+MD5="89e31a8b5068fb843fdd073ff3311d2c"
+SHA="8c7aa3e4f6aa055c05de8b3b49d2487ff58c81c309d851f91f88ab555305f34f"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="436"
-totalsize="436"
+filesizes="440"
+totalsize="440"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Mon Oct  7 13:11:09 UTC 2024
+	echo Date of packaging: Tue Oct  8 12:00:11 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/set-dbus-machine-id.tXmafOYSwU/\" \\
+    \"/tmp/set-dbus-machine-id.GyxErUvENd/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/set-dbus-machine-id/install.sh\" \\
     \"Devcontainer.com Feature: set-dbus-machine-id\" \\
     \"./entrypoint.sh\""
@@ -716,4 +716,9 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ íİgíÔ]oÓ0à^ûWB¥ÂEâ†µ4T¤Ñv¢k%ÊÇBU>bìÊq&ø÷8Y´–qƒ˜4é}nì$çØNâã€eÍÏƒ–ÊU1øÆN46mMÃö:Œ¢¶mœM'ƒp5A³6.œÌÜ-@]ÙØ¸¥˜Z)aîËtúíoÏ»w¹m‰§Ox]Hå6Â5ù;Jâª ßWú`t.KÑöMJ¾&aŒø!mÓ=ÈƒÈcY6}¥ÓR'‰07µª„eL¤…¦ÑÜ¡åêãb»y±Ş¬Ş‹í5wGÇº±­8'—égI]ùßã´Jø2;‰»Çˆ¥y=©¸Tî—¥ÛÛl w¼ç»|´‡¨ÿÙ8ü£ş£ÙÔÿ#¯ÿåë»ıÕÅâ«úız¹¿\¿]Íùulx)Şì8~Üq7Ñ›Õ§“ŒùğØgLæô™üœ¼aßÀ}yI¶ŠµÇ…·-3j&¡nZ/)wkËÎiø,-õóÜc¹ìÎ.o'¬•êëa¬î’_¯×¥õ>£WıâP              €õ—× (  
+‹ ËgíÔOOÛ0 ğœı)Y¥n‡ÄñÒ6S‘X[D%h%
+ÛašªüqˆE°+ÇAãÛã”ˆ–¸LCBz¿‹íØÏv?û”K£ï7JHãW…ó?V46%‹†lÛfQ´-ápà°A°¯,
+Yèl0
+CçÔ•‰µİŠ®¥äúõq™JoŞêoßå©ü >ĞºÒ4Ò„;ğVÄU'ÕF«\”|[×)x
+¸Öü0Mu#6<EÙÔ¥JK•$\?6jYqCOı±ÓÙÉrqy<_Ì.üÉòš§ıİ8á±©5?éeI]y·qZÉ=‘í{EŸ¤¸¡.ñ©ö—¥=ÛÄA/ø´ã»í}´÷ÈÿQÀşÊÿh`şğüŸ~¿Z­Ï'§6ë×óéúd~6Ó»XÓR$´9qtwâG/f?÷"Æ½]‘Ã/ğrp{]»ğû˜‚K°½.Üe™A³´‹À|
+¹İ[v½Ïil s/.ÉE{w¹+nŒ×/¦1ª~¾_·ëìƒ£îñRB!„B!„B!„B!„Ğ¿z ´·~F (  
