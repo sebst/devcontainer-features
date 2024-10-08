@@ -1,0 +1,25 @@
+{
+    "name": "kmod",
+    "id": "kmod",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/kmod",
+    "version": "1.0.0",
+    "description": "Installs `kmod`",
+    "installsAfter": [],
+    "init": false,
+    "privileged": true,
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Currently unused"
+        }
+    },
+    "capAdd": ["ALL"],
+    "mounts": [
+        {
+            "source": "/lib/modules",
+            "target": "/lib/modules",
+            "type": "bind"
+        }
+    ]
+}
