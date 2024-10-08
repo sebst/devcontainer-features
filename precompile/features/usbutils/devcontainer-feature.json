@@ -1,0 +1,17 @@
+{
+    "name": "usbutils",
+    "id": "usbutils",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/usbutils",
+    "version": "0.0.1",
+    "description": "Installs `usbutils`",
+    "installsAfter": [],
+    "init": false,
+    "privileged": true,
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Currently unused"
+        }
+    }
+}
