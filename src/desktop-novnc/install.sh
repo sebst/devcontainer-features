@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="3172055377"
-MD5="5b985fb806992ffd006720c3dde0dc8c"
-SHA="1b32cfad16e0dfe5a801c86fcf64f7d80d72dea5f795f485c256942b9f1b0ec0"
+CRCsum="1599501572"
+MD5="d0b478fc8f1ba6330e19eee9a87a93f0"
+SHA="78dc7b793935c47c7badd77614d3ecfe06acf25fc270cfc2fc7f5410a99195c2"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="2227"
-totalsize="2227"
+filesizes="2226"
+totalsize="2226"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Tue Oct  8 15:53:19 UTC 2024
+	echo Date of packaging: Tue Oct  8 16:07:44 UTC 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/desktop-novnc.2HIoCl5tSC/\" \\
+    \"/tmp/desktop-novnc.0WLlUpPHG5/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/desktop-novnc/install.sh\" \\
     \"Devcontainer.com Feature: desktop-novnc\" \\
     \"./entrypoint.sh\""
@@ -716,16 +716,12 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ oUgíYëOãHŸÏþ+
-Ã[Û	¯Ì±:2£h¹˜Õ°9v‡´pÚ^w;„ãøß¯ªýˆã$ˆ½­´Rú‹ÓÝÕÕÕõüØŽÏäƒ
-#K„á9.Š.¸²åèÝÿ;j8GGô­7Žêz^o4ôÇñÁAý]ý°Q«ïíáú~í°vüjïþ„‘HåÆ(JœÁâÕt~è=¼¶Ÿ=¦øþEÆæ†6ùÀ•#ÃH$‹ûÂ³Ss"½Ðg&À&Üt/ºÆ}&Qe/Ûºì~>uÔ8r¼P(—£SÏ	Â{Ã`Ó(Œ\|¼íõ{­^¯Ýíôé÷ÙÅÅ5NOÍ­çU{MËtn"¼QÓ|1fíÞÕåÙ¯úlú³i5ë³ý/ó>2è^ÞÞ K"›_iZõÃÃÚ´qüaZ?~1!?wyÖùLÔôÅË™èßöìÛ›OÖ‡Òå´y{ö¹•ÒïEbcZSæ%Š1ðÂñØ>p"Tà1sý' ŸãâÞ TmñÑõHÏÂo;¡ºNwwvgp >Áì)®ÂVÝ6õ2óF!XÌ;±·[;¾«Ø.ìí™ð‰¶‡ Ëm$<GŒ~ó‰#’ Ð\ø6 ºYÖ™—	NèB“Ñx`,Êd+ËæÖ?Ì‚èqÄöK?,hiÈ ¹B½XóCÁŠ‰~92Ðzb~þð@ÎH´ˆ†Ëªzí?¦‰ò…Ë˜i¢!7^ÈÈ?“Ô¹u3à…ZŒê*Ìº³µ~`y`¦jk’zÒ'}»Ë,ú\Å¡Ç¤,´p['+©Ø”#ÑÆI¦Ù£­RØÿé}ýÍú€÷¹^7*gò÷ËvS­ÜJ¦‰A…¤p%Ä!úý#ºÄì÷„ÇÌ7Rv…Ð¿áM;ÈÑJvM°PÚüVq>Í¶ð´9(Vsã,C„ÂÒ¢Pª£+—†#žÁ³ñkÂ±ßI8xÿ^¯?™ÓÉÆ)˜t‡¹\x+2ý[s‰¦£aÝ{&´S!Zÿß
-À³&ÞÂ4=çëÈU»9&Þùuûêz7g×7”9è>hÀ$ÒÖtÛ™ƒé0å9:Ãûí§iÚÛ†Ö’5D’‰;¨N½ï “˜©®Jù€v,ßeãPÀŠd“= Ï–j&£X.‘öõå®^ºÜ’OR±ñB*XH`e—e²<ƒéÌ•+0‰@ñ{#´4ùŽ2Å0H¦ƒpj”^SÑì¯õº•>Í§{V€ÐÃ?ø<+ªPå,¼Ñ8ôQUc%Aø(t6·žgÕü¥Jž{zø•ÒùBŽ¥PÏ‡íé6N=œ`D Ó×¯–à6XxOÈµ¥3,÷,3?-Öê¿íM÷°žft>‹Ôh‘hssošÝóó(Z‰àê¬×û¥{}Ai\2¥5§+²EqÅ&Ïß}CÑ#ÅC!OÍÜr™á
-´ñV.0.Vž€›ZÊÙŽž¾…AýX«#QÄ!}ÇÅU»iýxŒhh7…RÁsOÁ¸Ç¦&r»äü;¾~.Ù¼
-(Àüš¿Ì„Y®#¦ó@‰"WÊGœDÆŽ–N‡Z
- QÆ‰U`>é ¿ŒÁRžË¾›$=DS1WO7O“ÐÁ 3)P EXp1ÐDˆ:!Ûs·óµÅ)ÃçÅ;S b•Ò‹tãcÎ’ùN$1ŸÑ·uèW)}Ïž“(H'E§Ø%åäÖDÓˆ˜·ÊJà¤9šy¢2ßz£es—€ãÚ‡Î(É.Ô$73gÀ1ÕÎA*í.Âc­ÀB¥v®u|Ös
-G,­dzT93/¾¾(EÅÄùKÜ™c9\FúŠT°ÀV­î#¬å,EÖ©(•ÖúÚNKØ»õxË°+ýfèïÑö¿µÿ?hì7æûÿúq;èuÿÿçôÿ”mèo LL0Íf½º†Ü0ýŽ±ÊcàÅ1µô3âº< ß"ô‚p0À< '‰ÀbkF§K5êKëº—uáz!›cË\·÷í5Ë¿´>öºç?·nÚŸ~-èkv½f×#Â<‰˜·O©î4MyÍ°ÐtÂw¬VV£ïæ	Ò*bÎsé»¾Ï©¬¸A•¡
-Ã@"9¡K£¸ó€¹T]Œ£øÀq#å7éìá[œ"Pý$"¾Ð79æ°eg3¤õ¢¶Ø3¤8,/˜x±¶/úÛ¶g÷üXO¥ö!GF’Êt¹>f•Z™Í$‰0ÎÚ#Ã£“ýüÔÎ.<ÏþbàG÷`IÝ®ÌuŽ„½+/™WÑ‚ÜÖS~½ö8+›X1#+2áËjS”ÿ9¨õ±}ÖéºîvnZ‹Sìñ¸P,v=Å'¬jÒE;»AïÂ¢÷éÁ9"@È†2áql¶æß ­ìLº7ë
-ìÝ]P^p·ƒD¨vöÑËw ¤{dH§U3ÌíÊr±ÐJ±­fÕ‘sã€—xZñ
-a Ëf íÕ¿*~)^²Âž+GC‚´–o¬‚L¥kfýI…,"‰Ñ¬²w	#¥"Ùtœ{®FÉÀFÛ–AŽãÆÞ­æL²t‘çƒûß<¢ü¢Û}"÷ÚÑ—$‚h–Ð–K¶
-áYU	àÚ#5Þ| ƒžMõ‘·*á‘$>|*kbY‚œWÈìÜkZYNµR5 Ð^xl‰Ë
-ÑÞ¬ ÑÎêk³~ÿWø€>]qà¹P.w€c{YtDOjŠkÌSlfs‘Œ£T:Â¸«ÛÒùWºNFÎöÿ¢/ú»†Ž¾"b%b&°—ýG¦|‡a¯ ÿ1]kbÊü® ïíø¯vpX«à¿ÃãƒÆÿýµñŸ.Û§8°B9Çâ|Öî´®íóî?V·gð‰¹*‰Yæš‘ÅŠ±mxX˜æ™†]jbÖmàz¬Çz¬Çz¬Çz¬Çz¬GiüæaÓ (  
+‹ ÐXgíYëoâHÏgÿ'7yÜÚ†<g‰²ºLÂŒÐæ 
+Éì¬fö±hÅ´½î6!—Ëÿ~UíÆ@”½­´ýÅnwuuu=¶ã3ù ÂÈáDxNŸ‹â\Ùr´ñÿŽŽÓãczÖOëz^?=ÕO'‡‡õúÑi­~p|txPÛ¨ÔO6 ¶ñ'ŒD*7FQâD¯¦óCïáµõì2Åó/2¶6µÉû®F"YÜî˜›é…>3¶à®sÕ1†q˜D•µléºóéÜQãÈñB¡\ŽZL='‡†Á¦Q+¸úpßíu›Ýn«ÓîÑûÅÕÕ-NÏÍíçUkËtn"¼QÃ|1f­îÍõÅ¯zoúÚ°õÙúçöet®ïï%‘ÍiXõ££Úôôäý´~òbB¾ïú¢ý‰¨é‰‡3Ñ»ïÚ÷w­÷¥ÃiñþâS3'¤÷EbcšSæ%Š1ðÂñØ>p"Tà1sý' Ÿãbhª–øàz¤gá·íPÝ¦«»{Æ³8PŸ`v‰¿ÂvÝ6õgæB°˜ßÄþ>lïú®b{°¿oÂ@&~Ø€b,´‘p1ú	0Ì'ŽH‚@sáØ„h³¬)2/œÑ„&£ñÀX”ÉV–Ìí˜Ñãˆì5–~XÐÒr…zñÍ+&úæÈ@ë‰ùùÅ9#ÑZ .«êµÿ˜&Ê.c¦‰Üx!#ÿLRçÖÍH€èj1V¨«0ëîöPøå™ª­AêI¯ôõ[fÑßà&=&e¡…3Ø><[IÅ¦‰6Ï2ÍŸi•ÂÁOïêoÖ¼ËõºYÙ“oˆ¸_Þ°—jå^2M*$¥€+!ÑïÑ f¿'<f¾‘²+ô€øOÚEŽV²g‚…ÒÖà·Šói¶…§Í¹@ñ57Î1D(,-
+¥::ri8âÜ¿&û„ƒwïô÷ç"sb:Ù<“Î0—o%P¦ëe®Ñ4c4¬;dÒ@;¢ñÿµðÜ»`âmLÓs¾Ž\µ›cÒè^Þ¶nî {wq{G™ƒÎÓ‰ü~"mM·“ù0˜Sž£3¼ïÐzê¦½ch-Y$™¸±ƒêÔë:‰™êª”hÅò]6¬H6Ùâ1ñ\`i f2Šåi__îê¥Ã-ù$/¤‚…VxY&Ë3˜Î\¹“²¡ É'èt”)A2í‡S£tÃxŠf©×­Dði>Ý·„ÆøÁç1XQ…*gáÆ¡ˆªNW„B‡acûyVÍ_ªä¹§g_)/äX
+åð|Ø™îàäÑÃ	F:}½ðøj	^`ƒ…÷Œ\[z1ÃÒ9dá˜©øi±Vÿmºõ4£óY¤F‹D[[ûÓ´è^Ž˜÷@ÑJ7Ýî/Û+Jã’)­y<]‘Ý(ŠÃ(æ0yþ6èŠ^)
+ynæ–ËW °rñcå
+¸¨¥œ­èéY¸¯Äñµ:EÒ{\Ý´Ö'H†vƒQ(ñÐ<÷Œ€!^00‘Û%¿àßñösÉæU@æ—üf&Ìr1× J¹R>úà$2v´t:ÔR ˆ2N¬óIùeô–ò\öÝ$é"šŠ¹zº{Š˜„6™I€-Â‚‹&BÔ	Ùž<5˜¯-N>/Þ™«”n¤s–Ìw#‰ùt€¾­C¿JéèsöDñ@:):Å.)'·&ú™FÄ¼UV'ÍÑÌ•ùÖ-+à˜»œÔÞ×pFI¦p¡¹™9Ž©vfª°Piuî@k*µs­ãE°žcøPh<bi%Ó£Ê¹˜yéüõõA)*&Îß°Ä}3s,‡Ÿ‘¾"U;,°Fë„ûÈk9K‘u*J¥†5¿´Ò¶±ov¥ÿÏý=Úþ·öÿ‡§§óýýÇºÿÿ“úÊ6ô L³Y/‚î€!7 Dï1Vy¼8¦¶‚^#±Ëz¡„ý>æ=I[Ã0ÚªQŸ›·Ý¬×²9¶ÌuûÀ®Q³üKóC·sùsó®õñ×‚¾f×kvÍ0"Ì“ˆy{”êÎÓd‘×M'|7ÀZ`e5úÛ<AZEÌy.=×÷9•7¨2TaH$'´`iw0—ª‹‘c4‚¡ï;n¤â&}¼«S„ ª—D„Áú†Ç¶lo† ‚´^Ô{†‡åw"öÀöEcÛö¬ãž_ë©Ô>äÈH’@™.0×Ç¬R+³™$ÆY{dx´³—ïÚÝƒçÙ/~ô0Kêve®s$ì]¹É¼Šä¶žòãµÇYÙÄŠY‘	_V›¢üç æ‡ÖE»÷ñ¶Ó¾k¶¯Î±ÇãB±ØõŸ°ªiH­ì½?‹îÿ¹—ˆl !È„Ç±Ùš¿?‚¶²3éÞ¬#@°Gt?tAIxÂÜ÷¡Ø=@/?Úûî‘!V5Ì|0·*ËÅB+ÅŽšU;D6Ì^âmhÅ+„A€.›´WTÿªø¥XxÉ
+{®	ÒZ¾¹
+2•Ž™õ'²Tˆ$F³Êî5Œ”ŠdÃq†\’¾¶-ƒÇ½ZÍ™dé"Ï/ö¿yDùE·+zGî!´¢IÑ,' ,—lÂ³ªÀµGj¼y=›ê-oUÂ#ëK,4|ðTÖÄ²9¯Ù¾×´²œj¥jA¡½pÙ—¢½YA)¢1ÔÇfýþ+¯ð½»âÀs¡\î Çö²èˆžÔ(‡Ö˜>¦ØÌæ"G©t„q-Vv¤ó¯tœŒœÿE_ô»†Ž¾"b%b&°—ý#S>CŽ0W	Œ?€ÿ˜À®5
+1e~WÐ÷vüW;<ªUðßÑÉÁñÿýµñŸ.;ç8°B¾Äâ|Ñj7oíËÎ?¾îÌ(à#sU³Ì5#%ŠcÇð°0Ím2»ÔÄ¬ÛÀõXõXõXõXõXÒø/ÿú€Á (  
