@@ -7,7 +7,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 package_list="
-    usbutils"
+    kmod"
 
 # Clean up
 rm -rf /var/lib/apt/lists/*
