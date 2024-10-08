@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="643524328"
-MD5="a93dcb75202f4e2ddfa691f1bb62c49b"
-SHA="0cbca49eb58233a8c823d170991ff7962759dbf9b59aeb8ad24bb857eea63eb8"
+CRCsum="865630573"
+MD5="20c966ede12e6285e47bc9473099a46a"
+SHA="1111f43fe21dd5acbb28f5162f08ff62ec19e138303f00b507b14da9531ec86a"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -17,15 +17,15 @@ export USER_PWD
 ARCHIVE_DIR=`dirname "$0"`
 export ARCHIVE_DIR
 
-label="Devcontainer.com Feature: pkgx"
+label="Devcontainer.com Feature: desktop"
 script="./entrypoint.sh"
 scriptargs=""
 cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="1962"
-totalsize="1962"
+filesizes="328"
+totalsize="328"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -383,9 +383,9 @@ do
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/pkgx.eDaq40CHdR/\" \\
-    \"/home/runner/work/devcontainer-features/devcontainer-features/src/pkgx/install.sh\" \\
-    \"Devcontainer.com Feature: pkgx\" \\
+    \"/tmp/desktop.gi31uDOHCK/\" \\
+    \"/home/runner/work/devcontainer-features/devcontainer-features/src/desktop/install.sh\" \\
+    \"Devcontainer.com Feature: desktop\" \\
     \"./entrypoint.sh\""
 	if test x"$script" != x; then
 	    echo Script run after extraction:
@@ -716,9 +716,4 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ‡AgíX{oã6ÏßþEˆãödYÙ¼6{^4¯nƒâ’"¢@¯ud‰¶YK¢–¤üh³À}ûz÷I:CI¶ì8í¸n¯„¤f†ÃáÌo†iº,Ñrš
-žè¦lüÔB:Üß§¿Þá¾gæÞá¡ùKôÊ;Øðö[Þî^ë …ëÞÞÁ«WÐÚø”)íK4EfIÂäó|¡†¿õ½8Ëìï_„¶6ÝLI·Ë„8·ÐõÕ '©=13–8˜”lÂ5Sž²žÏ#'"ˆD·Ëd>ÉÅt­Æ‚€z	Î/¾=»¾º;¹¼º¸iž]ÿhµ>ç€/™¯3ÉŽ!ö'•ÏP½„`¯Ukº<Á+Œ"ŒÞÚÆš^HM—ÜXñáŸÿÞþrþï·ö¼uþÿµó?,§ˆ,&×ùù?œÿO®êÓå¿G?KùðjwÿŸ(ÿ)÷17k˜µà°Z÷@3…ã,ûÛ‹›ÓëÛ‹RÛ,¼»¼ûêþ´srvwy}u‹ë~¾~s…Õ½s~qzÿÎzzÀ’€Ñ9©õxEmr"ømN*6Á/-ÏtÜÞŸ_·-•…Âª±h¥š*>N|Ap¥™Þ)2£“JÖ‘ì½ÚiÀ/È7SÖ—éÀY—ûIgÄ¤âb~  ?Õ¥¡¯	M§LÕÌêÄ<á1šßÍ4 ÞŒK‚0=rÈ“>„‚©ä?ÿú·Z)äZ§êØuS?ú}¦šùÎM!ûn#šIÍuQ¢9s	Æ#®´‘>iË¥!ïõxE´ ðJD&A¤hÈpÚŽx7ÙÈÁß\0@`ï¾^uøj1l?1¥8sšŸ=*-‘y`æ¯›Ÿ5Oî ã(\¸_@›Ñ@é0øüsg¯yT®ôƒ §‡fjŸ€}úæÑTž´{­ª_P~´Bu)6Íây/TîµªÚ_?Õ.Ä/8Îµï¢§^¨ß«ê/fÕ˜òT2 Ú…ôÉ"†7Z	Z›Ò ¦YŒ»ûJe1[²Á×"æ«•ú2¬P¹UŠSd£¡ÀUR×O¡ç„ä˜z€ßþf2‚XAäS°”%¡‘ ×…*Ó6¨+›4q°añmÌ½ÐÅ“€Á˜A†¡Š=L-2Óì€FäªL)Œ}
-únÆ#Ü‡+À@žB$ÆÍŠ30ßb?1Q ’—è›Û©9ÉÌ‘&>«µˆ8õÉd’%ªð?¾Ï¡óìÒ‚`{ç8†Í6´à‡œ¹Ä,ÏsÌÉuTÜŠïKÌ³¶E–9åÔ‰&ƒe.Ó}™sÆÖõ!€ŽÓË¶½5‹SÊF-ß­ÛÂñž¬«ln¾Ð½/ ·é(øÐ
-zÖYYÚ—~ˆWp¼JÄ‚·Û»yÀ–6—‚óÐùÉü t©™¢@ó!ñcVêYÆIŠ,A&£™GðöuŠA§e§$EñA% /])LÍXã4>RÕ¶ìÜY.Í,³{¼‡¶ÚùR”´=ÛÇqò¾™ü¯é™kÀ¼ÖÔñ0Ø¹öNFv7Ê8qÃjêþÏð¶Ü ¶+ÁIm{ Vá³xˆ–“.¹ªøŠ=L~F#‰Z`¨/å¿CÝìQ7åNcÓÏŒ(ô%”.(ŽjbÁÂ¢ bÌ“ÆÌ£¾aQ\lŒŒ}™˜{öÍGÌh œL„þí«G“THßœÜ}Õ¶ymZµ(0” X0—Ù„dwY~—"H3Ä:
-„‰çÁjWT8Rð–›Ò
-QcªãLµjò}d ü³8	¼$$J¡ÇUW»tK.*>¾Yøþõ»ï:ç—7í¹xéóÄ+ Âä‚A+²’°IDaV#”ÝYué3Áãc~çf¹Õ =V(lb0i‹Q¡VB_ÇÆ€#×:·ªË.Ãö;ÕÆŒÕìfÐSþxõ_RÉQ­½û¡Þ0§P‘Eá3Ðû=u‹¿uØãd2VY«®·Ø*ÜÛ	Ø}»í='VM±æÍ*ÈÖ fXš¨3_uê™a«L_ôÊ‚'°½³xÍð#Éüp:Ï–<i‹—ÁRIÃ–§ð9å &Znž©ãøÍécôPk„Xuv9ãäˆÓjÀ©îÏ‚ÁWÃ¬›%:k"2¹¾{ppt´ÿºìøn¹<¹ê|ys}uwquÞNVÏ€òôÃ¶í™!îÐÓè-m²‘œ÷ïñµÔ>Gß+æ|£§íØ_ À‡Zq±ÕšNÚ²=«ì™ó§BcY¢2É`*2ø#f0éœü@õÌ1ð¥°Rs/à"i™O‹®°à]Ü*ï9é@–¹í§bE3ù±?œd&Ž‹¢Ä˜÷NOyóõ'ì9ÄwW?ÁLØäˆ8PÀ§QºCÏƒ—–k·¬•¢zõ¿õŠøüø#Pëƒ]1b'›,Õ„TÔ=R8ˆ¤©UÑé)¶l„O¸ç³ÚðÃŒó|ÓÇÞI„%ÙðZÇ>7x0›¹ƒHë<‘Ô +Q B†•tw¾Ù’Ñ˜Í§aîåDŒ¥ÇeuB]iélÇŸõÂÖ´¦5­iMkZÓšÖ´¦5­éÿ›~å2 (  
+‹ ‡AgíÕÏKÃ0ðžûW<ëa§¦íÖ® x9ÁÃ6qâ=m³5¬$%MEÿ{Ûmè&üúý\ÞKò	á%,(D³±º¤j,¯*Ö”Î';i’ô1J“h;ŽÒtwùØ‰â4Œ†q8»ù(Iâ‘C¡óÚîÔ¦ÛŠi•æx]¡óÍ{ëû³¼Ä_âô$hdRB=¿¤Œ7%ù¾ÒµÑ+Y‰mnrò5	cÄ£´}ZËZ¬¸¬ú\é¼ÒY&ÌnÐªFX×y©É›	Ëé†ç¾ŒæÚ–R­Éj*4ó\~ë®Ýš§ZKe¿ õ?Ôÿ£aü¦ÿãñhˆþÿý?8ïÐåô~²˜ß]\Ï§·l²˜Q?;x­ +ÁmkÄí?£ƒµ#n^·/÷\vð}áU              €åˆø¹æ (  

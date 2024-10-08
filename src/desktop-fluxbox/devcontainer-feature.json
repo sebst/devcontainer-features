@@ -1,0 +1,15 @@
+{
+    "name": "desktop-fluxbox",
+    "id": "desktop-fluxbox",
+    "version": "0.0.1",
+    "description": "Installs fluxbox.",
+    "installsAfter": [
+        "ghcr.io/sebst/devcontainer-features/desktop-xserver"
+    ],
+    "dependsOn": {
+        "ghcr.io/sebst/devcontainer-features/desktop-xserver": {}
+    },
+    "init": false,
+    "privileged": false,
+    "options": {}
+}

@@ -1,0 +1,19 @@
+{
+    "name": "desktop-init",
+    "id": "desktop-init",
+    "version": "0.0.1",
+    "description": "Adds entryp point for simpe desktop.",
+    "installsAfter": [
+        "ghcr.io/sebst/devcontainer-features/desktop"
+    ],
+    "dependsOn": {
+        "ghcr.io/sebst/devcontainer-features/desktop": {}
+    },
+    "init": false,
+    "entrypoint": "/usr/local/share/desktop-init.sh",
+    "containerEnv": {
+        "DISPLAY": ":1"
+    },
+    "privileged": false,
+    "options": {}
+}
