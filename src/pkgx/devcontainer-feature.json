@@ -1,6 +1,7 @@
 {
     "name": "pkgx",
     "id": "pkgx",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/pkgx",
     "version": "1.0.0",
     "description": "[pkgx](https://pkgx.dev) devcontainer feature",
     "installsAfter": [],

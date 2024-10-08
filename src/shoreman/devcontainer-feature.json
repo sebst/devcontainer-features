@@ -1,6 +1,7 @@
 {
     "name": "shoreman",
     "id": "shoreman",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/shoreman",
     "version": "1.0.0",
     "description": "[shoreman](https://github.com/chrismytton/shoreman) devcontainer feature",
     "installsAfter": [],

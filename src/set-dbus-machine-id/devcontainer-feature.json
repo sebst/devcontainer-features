@@ -1,6 +1,7 @@
 {
     "name": "set-dbus-machine-id",
     "id": "set-dbus-machine-id",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/set-dbus-machine-id",
     "version": "1.0.0",
     "description": "Sets the dbus machine id in `/var/lib/dbus/machine-id`",
     "installsAfter": [],

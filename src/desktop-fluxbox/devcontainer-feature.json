@@ -1,6 +1,7 @@
 {
     "name": "desktop-fluxbox",
     "id": "desktop-fluxbox",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/desktop-fluxbox",
     "version": "0.0.1",
     "description": "Installs fluxbox.",
     "installsAfter": [

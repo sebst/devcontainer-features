@@ -1,6 +1,7 @@
 {
     "name": "cf-warp-cli",
     "id": "cf-warp-cli",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/cf-warp-cli",
     "version": "1.0.0",
     "description": "Cloudflare Warp CLI (works on Ubuntu devcontainers only)",
     "installsAfter": [],

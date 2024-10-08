@@ -1,6 +1,7 @@
 {
     "name": "desktop",
     "id": "desktop",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/desktop",
     "version": "0.0.1",
     "description": "Installs simple desktop.",
     "installsAfter": [
