@@ -1,0 +1,17 @@
+{
+    "name": "tailscale.com",
+    "id": "tailscale.com",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/tailscale.com",
+    "version": "0.0.1",
+    "description": "Installs the cli for [tailscale](https://tailscale.com)",
+    "installsAfter": [],
+    "init": false,
+    "privileged": false,
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Currently unused"
+        }
+    }
+}
