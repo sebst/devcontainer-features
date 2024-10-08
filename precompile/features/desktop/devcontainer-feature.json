@@ -1,0 +1,19 @@
+{
+    "name": "desktop",
+    "id": "desktop",
+    "version": "0.0.1",
+    "description": "Installs simple desktop.",
+    "installsAfter": [
+        "ghcr.io/sebst/devcontainer-features/desktop-xserver",
+        "ghcr.io/sebst/devcontainer-features/desktop-fluxbox",
+        "ghcr.io/sebst/devcontainer-features/desktop-novnc"
+    ],
+    "dependsOn": {
+        "ghcr.io/sebst/devcontainer-features/desktop-xserver": {},
+        "ghcr.io/sebst/devcontainer-features/desktop-fluxbox": {},
+        "ghcr.io/sebst/devcontainer-features/desktop-novnc": {}
+    },
+    "init": false,
+    "privileged": false,
+    "options": {}
+}
