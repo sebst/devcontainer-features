@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="2594584114"
-MD5="611ada5bdbbc0b6a6530a656de6f6829"
-SHA="d844aac49a23c1c74a9dd4d261d0445477285c576127b11a684b17b04d3b7ce0"
+CRCsum="2496668289"
+MD5="9635f679dfc0766bcb7fb1d779d2bb0a"
+SHA="3de8f1ca8b6d0811108dcdfe5306553eb884a19a9ec887c99d6d703bb28ba76b"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="773"
-totalsize="773"
+filesizes="772"
+totalsize="772"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Sun Jan 12 14:14:19 UTC 2025
+	echo Date of packaging: Sun Jan 12 14:18:07 UTC 2025
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/usbutils.cAKiZ5iPGV/\" \\
+    \"/tmp/usbutils.TSXvRatqMZ/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/usbutils/install.sh\" \\
     \"Devcontainer.com Feature: usbutils\" \\
     \"./entrypoint.sh\""
@@ -716,6 +716,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ;Îƒgí•İOÛ0Àûì¿âÓJù‚B¥ĞX[$hÒ4UNr¥©ÙN×Šíß%´PØ@¼	É¿‡&ï|ßu¢´z^(!m`ÆÿADtvw«gÜÙëu¼·W?+v¶÷q»Ó:íNÔÙiDñN;Úk@ÔxJc¹&Wt)%ê§å2•^?·ÿFY_K£ÃDHj„)øH¸ƒïKUh59Öï:_j3a«×B8â"¯Ş¥Js•$¨o¥4hÃt¬ y@@¯Ù=;ıztrÚ?ºg_ úÚ¼—€cä¶ÔøJ“”Väfeó	š,ÍÀ[Ê{,…¤Ræ9u1k8^H.S¸’¿×ÿí¨½óhşÛ»qìæÿmÏ?#øŞ»‘_¶<ğ%B?>‚£d@Ô3î#4©……	ªpZ)À…A0e¦¶èw”Ñà_úçµ€VÁ\•zu…j—)]Ÿ#…¼"ƒÂ€©mÍ[ËU1	Æ
-^ó+æÂØ¯Ş½ÿWaëĞÍ‘K(¦'àë„S®Ã\$!/lX)™p“1Z¯ĞË"ã7Zì¦>i™ƒ‘Ù?5áü¤Üæ”Ÿğ"ïA~îrä/"!MŸÌÀ­™ ¼;Á‡[àÏëŠğwÅÓkSù³ˆ× §-f3àäàbe*&•¬T–¥•æp©µÑ‚»ÈÖ +®¯À7á'!ÌpÊ2Ïaûğ}ü(‡úËm¾4_7œ¿XøS5™ Ìn­¬õ$/œ,«ÆÛ#E°şœ©õ¥¡{¨r
-¨e„¤HrÅ¢æ©S¬šOµ4MÇ¤°†á¬PÚÒ÷ùäètx|N÷\ÿ´w@z+jû£2µtğ[oÁ(/g‰šÕU¸@We6ÊT yTxw³Ú¶”Œ7*	ö„)r>¯Ê4†a)·°¿ı³cÙØlÑ4I\cŒ>¸KÒáp8‡Ãáp8‡Ãáp8‡Ãáp8Ş  £Òÿ (  
+‹  Ïƒgí•_OÛ0ÀûìOq„iD’¦´TÚ A‘xHí@“¦©r’+µHíÈvºVlß}—´…ÒÄËü{HãøÎ÷¿B”VÏr%¤Ì¨ö?hv»ü:í¨ZGûûÕoÉ^s¿µ:­F‡{Z#ÚkEÍ4j¯@a,×äŠ.¤Dı´\ª’Ûçöß(›aatI0¿17#ğ}©r­†"Ãê]'à+@­q*lùš‹‡\då»TI¦âõ|QHƒ–1LF
+ê‡œv¯O./¾Ÿ_t{ÁÉå(¿Ö$à¹-4~€ÂÄ…™YÙ|‚:KRğ–òB!©”YF]Ìj„Ë®äïuç¿Ùhí­Í«µİü¿íùgbßÁ{·%Rğ‹m|‰Ğ€ÁP2 ª÷êıD‹ÜÂ˜Š1Õ¸­”àÊ ˜"U»ôÜ¥§4øWın¯ğÀ*˜©BÃiU¡Êå‡JWçH!oÈ 0`*A}n¹#bCÁXÎ“[~ƒƒL{èU»ÿ*lN2äŠœé1øzá„ë0qÈs–J&ÜaŒƒ´ƒ"O¹Å­mvW´ÌÁPÈôŸšğ~Rn3ÊÏ!xïQ~îsäõ‘¦Of`n&ï^ğñø³j‡"ü]E1ÂäÖ”ş,â5À)C‹™Ç89¸X™Òƒq)+•eI©9XjmmÃ}dæ·7àŠğ“G¦8	e‘eĞ<z­ò8C¹íÏ–æ«†ó_c¢Æc”éÜÊjPOBñÂùâ°r¼­R´ ›Ïi‘ZWº‡J§€ZFHÊ€$W,jX1Á²ÙøDQKÓtŒskNs¥-]qŸÏ/g=ºçº§‡¤·¢¶Ş¥©¥ƒß¢h†Y1Õ´ªÂuNTŠbNa£Lšµ*À»»Õ¶¥d¼¸QIğT˜<ã³²<0Fcè–pĞ½<#‘­mš&‰ŒÑwI:‡Ãáp8‡Ãáp8‡Ãáp8ÇàzS (  
