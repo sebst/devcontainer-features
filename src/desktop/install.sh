@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="4006837971"
-MD5="aeef14ac04aa947d1eea93faefc5f026"
-SHA="2219312100660235a2b167b518f027728e0d5e7e1ad3655b5fa6819714b29695"
+CRCsum="3898954236"
+MD5="451404246b11ba19c8470ff074a6c036"
+SHA="b4989af9edea9e7b33db2b3f5d09f89447726c1568fd40d9566da86d17d2faa5"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Sun Jan 12 14:07:52 UTC 2025
+	echo Date of packaging: Sun Jan 12 14:11:05 UTC 2025
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/desktop.yRu6UXPJ4W/\" \\
+    \"/tmp/desktop.6I6leSh7dh/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/desktop/install.sh\" \\
     \"Devcontainer.com Feature: desktop\" \\
     \"./entrypoint.sh\""
@@ -716,5 +716,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ¸ÌƒgíÕOOƒ0pÎ|ŠW<ìDÁ 1ñ`æL<l3j¼èF3Ò’RŒ~{—hLf<ø'êó»ômûJÈÓ² íÎê&ªµ¼®Y[9Ÿ,ìe³Ù0FÙ,çQšŽãXg©%YfI:ÍB'Œ’8Š
-oÐõ_mú£˜N)a÷•ºØ½·ÿK]k‚\ª@¨{òo(çmE¾¯tcôFÖb¬MA¾&aŒxv(Ùˆ—õP+]Ô:Ï…yžtªÖuEQiò–ÂrºâÅŽo£•¶•T[²šJÍ<×ÆúßnÍc£¥²_ýå?ž&oò'áùÿùŸœöè|q7_¯nÏ.W‹k6_/iX¼tÐ…à¶3â„öÑ«½&nQ’·o÷\öêùÂ­               ÿÊVÌB‡ (  
+‹ yÍƒgíÕMOƒ0pÎ|ŠG<ìDÇKbâÁÌ™xØfÔx/Ðf¤%¥ýö.q1™ñàKÔÿïÒ§<Ï¡„ü)JÑn­n©ZËëšµ•óÉÂ^–$ÃeI4î£4×±ÎR'Š³8Ìâ4Éú~O£Ì¡Ðù]ÿÖ¦?Šé”æð\©‹í{ý_êø(èZäRB=K9o+ò}¥£×²cm
+ò5	cÄ£´CÙÈF¬¹¬‡Zé¢Öy.ÌË¦S­°®+ŠJ“·–Ó5/¶|#-µ­¤ÚÕTjæ¹ü0Övkž-•ý‚è(ÿÓ“øMþ§q˜"ÿ ÿ“³]Ìïg«åÝùÕr~Ãf«O'¯t)¸íŒ8¥Ýe´×;`â%y»qÏe{×þ*               ð¯<Ár2¢ (  

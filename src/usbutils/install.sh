@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="1990900275"
-MD5="8e9fbb5b9fdaae7cdb07855db1f0c0cf"
-SHA="c7e0c0d4a853118ce66a99b9f53a0a7a8cf35fa51e928e935fe2807a81b34054"
+CRCsum="3121760976"
+MD5="1666a89cc2721d8cd831ac7e389a1e8a"
+SHA="e8141fd79c375f1d0882c8f0a9221e7dc8990ee6d1eefa1d9981bd0b1527c928"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Sun Jan 12 14:07:55 UTC 2025
+	echo Date of packaging: Sun Jan 12 14:11:09 UTC 2025
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/usbutils.NoJ5ztI41s/\" \\
+    \"/tmp/usbutils.5TsdRKp5D7/\" \\
     \"/home/runner/work/devcontainer-features/devcontainer-features/src/usbutils/install.sh\" \\
     \"Devcontainer.com Feature: usbutils\" \\
     \"./entrypoint.sh\""
@@ -716,8 +716,8 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ »Ìƒgí•_OÛ0ÀûìOq„iD’¦”VÚ A‘xHí@“¦©r’+µHíÈvºVlß}—´…ÒÄËü{hìø.÷¿B”VÏr%¤Ì¨ö?hýýòuö£jµÛÕ³d¯Ù®E­N«Ñiµ›½Z#Ú£uµW 0–krER¢~Z.UÉísço”Í°0:Œ…¤F˜€ß‡˜›ø¾T¹VC‘aµÖ	ø
-Pkœ
-[.s‘ã‹¬\K•d*ŽQÏ7…4hÃd¤ ~HÀi÷úäòâëñùE·œ\~òmýAÎÛBã(L\X‘™•Ã'¨³$o)ï± ’J™eÔÅ¬æx!A¸LáJþ^wþ›ÖÞÚü·ö£¦›ÿ·=ÿLá;xï¶D
-~±í/ðã#ØJD5ã>B½Ÿh‘[S1 F Z 7 •²\S¤j—~wAià)þU¿Û«<°
-fªÐpZU¨r9Æ¡ÒÕw¤7dP0• >·\†±¡`,çÉ-¿ÁA&Œ=ôªÓ‡¶	'r	EÎô|=„pÂu˜‰8ä¹K%î0F›ÁÚA‘§ÜâÖ6»«¾´ÌÁPÈôŸšð~Rn3ÊÏ!xïQ~îsäõ‘¦Of`n&ï^ðñø³ê„"ü]E1ÂäÖ”þ,â5À)C‹™Ç89¸Ø™Òƒq)+•eI©9XjmmÃ}dæ·7àŠð“G¦8	e‘eÐ<z­ò8C¹íÏ–æ«†ó_c¢Æc”éÜÊjPOBñÂùâcåx[#¤h6ŸÓ"µ®4t•NµŒ”I®XÔ<±b‚e³ñ‰¢–¦éçÖ0œæJ[ºâ>Ÿ_ÎztÏu/NIoEm½?JSK¿EÑ.³b«iU…ë>œ¨!ÅœÂF™4kU€ww«mKÉxq£’à©0yÆgey`ŒÆÐgXÂ-@÷òŒD¶v¶iš$n0F/Ü%ép8‡Ãáp8‡Ãáp8‡Ãáp8o€?c‡o« (  
+‹ }Íƒgí•ÝOÛ0Àûì¿âÓ
+ˆ$ôCÚ A‘xHe IÓT9ÉµµHíÈvºVlÿû.i¥ˆ—!!ù÷ÐÄñï»B”VÏr%¤Ì¨ö?hV«|FVT­£v»z–ìïµkQ³ÓltšíV‡ä¢ýfÔ¬A£ö
+ÆrM®èBJÔOË¥*¹}nÿ²¹F‡±Ôð¯ æf¾/U®Õ@dX½ë|¨5N…-_s‘ã€‹¬|—*ÉT£ž/
+iÐ2†ÉHAý€ÓîÍÉåÅ×ãó‹n/8¹üå×úƒœ!·…ÆP˜¸°"3+›OPgI
+ÞRÞcA($•2Ë¨‹YÍñB‚p™Â•ü½îüï5šûkóßlE7ÿo{þ™ÀwðÞm‰übÛ_"4àÇG°#”ˆjÆ}„úU¢EnaLÅ€jÜ€VÊpmL‘ª]úÝ¥§4ø×WÝ^%àU0S…†ÓªB•Ë1”®Î‘BÉ 0`*A}n¹#bÁXÎ“[>Ä~&Œ=ôªÝ‡¶	'r	EÎô|=€pÂu˜‰8ä¹K%î0F‹þm¿ÈSnqk›ÝU'-s02ý§&ü‚Ÿ”ÛŒòs^Ã{”Ÿûy½E$¤é“˜›	‚À»|¼þ¬Ú¡WQŒ0¹5¥?‹xpÊÐbæ1N.V¦ô`\ÊJeYRjö—Z[ÛpÙ¤ùí|C~òàÂ'¡,²öŽÞGk<ÎÐ_nû³¥ùªáüÅÂ×˜¨ñe:·²Ô“P¼p¾8¬ok`„-ÀæsZ¤Ö•†î¡Ò) –’2 É‹š'VL°l6>QÔÒ4ãÜ†Ó\iKWÜçóã‹þYî¹îÅé!é­¨­÷Gijéà·(Ú…AVLc5­ªps'*EH1§°Q&ÍZàÝÝjÛR2^Ü¨$x*LžñYY£1tK¸…ƒè^ž‘ÈÖÎ6M“ÄÆèƒ»$‡Ãáp8‡Ãáp8‡Ãáp8‡ãðŽ`Ê (  
